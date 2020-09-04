@@ -1,0 +1,13 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机房/设备/X3650M5_l1.obj",
+  "mtl": "assets/objs/机房/设备/X3650M5_l1.mtl",
+  "reverseFlipMtls": "*",
+  "s3": [
+    2.8,
+    2.8,
+    2.8
+  ],
+  "image": "",
+  "prefix": "assets/objs/机房/设备/"
+}

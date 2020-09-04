@@ -1,0 +1,12 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/冷却设备/冷却机.obj",
+  "mtl": "assets/objs/冷却设备/冷却机.mtl",
+  "s3": [
+    0.1,
+    0.1,
+    0.1
+  ],
+  "image": "",
+  "prefix": "assets/objs/冷却设备/"
+}
