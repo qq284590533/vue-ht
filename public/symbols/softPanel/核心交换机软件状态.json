@@ -1,0 +1,840 @@
+{
+  "modified": "Mon Dec 03 2018 15:04:02 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "CPU.NUMBER",
+      "valueType": "String"
+    },
+    {
+      "attr": "CPU.UTILIZATION",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.CAPACITY",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.AVAILABLE",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.NOT.UTILIZATION",
+      "valueType": "Number"
+    },
+    {
+      "attr": "MEMORY.UTILIZATION",
+      "valueType": "Number"
+    },
+    {
+      "attr": "MEMORY.UTILIZATION.VALUE",
+      "valueType": "String"
+    },
+    {
+      "attr": "serverName",
+      "valueType": "String"
+    },
+    {
+      "attr": "ht.columns",
+      "valueType": "Object",
+      "name": "TableColumnDef"
+    },
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource"
+    },
+    {
+      "attr": "ht.headbackground",
+      "valueType": "Color",
+      "name": "TableHeadBackground"
+    },
+    {
+      "attr": "ht.bodyBackground",
+      "valueType": "Color",
+      "name": "TableBodyBackground"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableBorderWidth"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "TableBorderColor"
+    },
+    {
+      "attr": "ht.columnLineColor",
+      "valueType": "Color",
+      "name": "TableColumnLineColor"
+    },
+    {
+      "attr": "ht.columnLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableColumnLineWidth"
+    },
+    {
+      "attr": "ht.rowLineColor",
+      "valueType": "Color",
+      "name": "TableRowLineColor"
+    },
+    {
+      "attr": "ht.rowLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableRowLineWidth"
+    },
+    {
+      "attr": "ht.headHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadHeight"
+    },
+    {
+      "attr": "ht.rowHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyHeight"
+    },
+    {
+      "attr": "ht.headTextColor",
+      "valueType": "Color",
+      "name": "TableHeadColor"
+    },
+    {
+      "attr": "ht.bodyTextColor",
+      "valueType": "Color",
+      "name": "TableBodyColor"
+    },
+    {
+      "attr": "ht.cellPadding",
+      "valueType": "PositiveNumber",
+      "name": "TableCellPadding"
+    },
+    {
+      "attr": "ht.headFont",
+      "valueType": "Font",
+      "name": "TableHeadFontFamily"
+    },
+    {
+      "attr": "ht.bodyFont",
+      "valueType": "Font",
+      "name": "TableBodyFontFamily"
+    },
+    {
+      "attr": "ht.showHead",
+      "valueType": "Boolean",
+      "name": "TableShowHead"
+    },
+    {
+      "attr": "ht.translateX",
+      "valueType": "Number",
+      "name": "TableTranslateX"
+    },
+    {
+      "attr": "ht.translateY",
+      "valueType": "Number",
+      "name": "TableTranslateY"
+    },
+    {
+      "attr": "ht.hoverBackground",
+      "valueType": "Color",
+      "name": "TableHoverBackground"
+    },
+    {
+      "attr": "ht.scrollable",
+      "valueType": "Boolean",
+      "name": "UIScrollable"
+    },
+    {
+      "attr": "ht.autoHideScrollBar",
+      "valueType": "Boolean",
+      "name": "UIAutoHideScrollBar"
+    },
+    {
+      "attr": "ht.scrollBarColor",
+      "valueType": "Color",
+      "name": "TableScrollBarColor"
+    },
+    {
+      "attr": "ht.scrollBarWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableScrollBarWidth"
+    }
+  ],
+  "width": 4000,
+  "height": 660,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(7,12,38,0.80)",
+      "borderColor": "#979797",
+      "points": [
+        3429.32469,
+        53.46153,
+        3460.74338,
+        53.46153,
+        3826.15014,
+        53.46153,
+        3893.16371,
+        122.52097,
+        3893.16371,
+        644.93319,
+        3451.95915,
+        644.93319,
+        3429.32469,
+        621.11944,
+        3429.32469,
+        566.48597,
+        3437.73758,
+        556.55281,
+        3437.73758,
+        309.07062,
+        3429.32469,
+        302.44665
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        3164.13288,
+        342.98002,
+        3164.13274,
+        310.85323,
+        3420.4738,
+        310.8661,
+        3427.22612,
+        319.00968,
+        3660.64711,
+        319.0089,
+        3668.7915,
+        310.86532,
+        3720.68793,
+        310.85068,
+        3755.49431,
+        342.97773,
+        3755.49446,
+        379.40125
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "rotation": -1.5708,
+      "points": [
+        3441.06825,
+        191.43347,
+        3441.06719,
+        496.12561,
+        3980.77628,
+        496.1277,
+        4031.32094,
+        449.53977,
+        4031.32145,
+        307.15409
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,12,38,0.80)",
+      "borderColor": "#979797",
+      "points": [
+        1320.49011,
+        34.74236,
+        1354.09304,
+        34.74236,
+        1928.32763,
+        34.74236,
+        2000,
+        103.8018,
+        2000,
+        626.21403,
+        1344.69812,
+        626.21403,
+        1320.49011,
+        602.40027,
+        1320.49011,
+        547.7668,
+        1329.48787,
+        537.83364,
+        1329.48787,
+        290.35145,
+        1320.49011,
+        283.72748
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        1057.41789,
+        324.11168,
+        1057.41775,
+        289.75142,
+        1313.75881,
+        289.76518,
+        1320.51113,
+        298.4749,
+        1553.93213,
+        298.47407,
+        1562.07652,
+        289.76435,
+        1613.97294,
+        289.74868,
+        1648.77932,
+        324.10921,
+        1648.77947,
+        363.06491
+      ]
+    },
+    {
+      "type": "text",
+      "text": "软件状态",
+      "align": "center",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1375.51887,
+        51.43098,
+        110.05751,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU / 内存",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3532.3825,
+        37.54335,
+        121.56411,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@CPU.NUMBER",
+        "value": "1"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3715.75044,
+        115.34284,
+        61.58151,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU个数",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        119.26137,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU使用率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        177.29483,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@CPU.UTILIZATION",
+        "value": "1%"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3715.75044,
+        175.29328,
+        61.58151,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.CAPACITY",
+        "value": "100"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3715.75044,
+        279.50061,
+        61.58151,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        283.41914,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3855.44367,
+        278.93402,
+        22.0659,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存可用容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        341.4592,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.AVAILABLE",
+        "value": "70"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3715.75044,
+        337.10737,
+        61.58151,
+        18.64151
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(51,153,255,0.59)",
+      "borderColor": "rgb(14,23,69)",
+      "arcFrom": 0,
+      "arcTo": {
+        "func": "attr@MEMORY.NOT.UTILIZATION",
+        "value": 4.39823
+      },
+      "rect": [
+        3598.75185,
+        416.36584,
+        195.91775,
+        204.02956
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgb(49,214,159)",
+      "borderWidth": 4,
+      "borderColor": "rgb(14,23,69)",
+      "arcFrom": {
+        "func": "attr@MEMORY.UTILIZATION",
+        "value": -1.88496
+      },
+      "arcTo": 0,
+      "rect": [
+        3593.16456,
+        410.54721,
+        207.09233,
+        215.66682
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.UTILIZATION.VALUE",
+        "value": "30%"
+      },
+      "align": "right",
+      "color": "rgb(93,217,174)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3806.38448,
+        398.405,
+        30.04607,
+        14.53494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存占用率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        399.645,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        3460.95948,
+        234.63931,
+        400.56943,
+        2.67638
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,12,36,0.60)",
+      "borderColor": "#979797",
+      "points": [
+        1320.49011,
+        78.32315,
+        1973.55339,
+        78.32315,
+        1999.95793,
+        103.82605,
+        1999.95793,
+        111.15789,
+        1320.49011,
+        111.15789
+      ]
+    },
+    {
+      "type": "components/ht/ui/table.json",
+      "displayName": "table",
+      "rect": [
+        1353.09861,
+        78.32315,
+        640.34941,
+        541.866
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onDown.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onMove.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onLeave.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onBeginDrag.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onDrag.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onEndDrag.apply(ht.vector.tableInteractor, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onScroll.apply(ht.vector.tableInteractor, arguments);\n}",
+      "columns": {
+        "func": "attr@ht.columns",
+        "value": [
+          {
+            "key": "softName",
+            "displayName": "软件名称",
+            "width": "0.7"
+          },
+          {
+            "key": "softStatus",
+            "displayName": "软件状态",
+            "width": "0.3",
+            "align": "center",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var defaultDraw = option.defaultDraw,\n                row = option.row,\n                x = rect.x + 5,\n                y = rect.y + 5,\n                width = rect.width - 10,\n                height = rect.height - 10,\n                off = 6;\n            if (row.alarmColor) {\n                g.beginPath();\n                g.moveTo(x + off, y);\n                g.lineTo(x + width, y);\n                g.lineTo(x + width, y + height - off);\n                g.lineTo(x + width - off, y + height);\n                g.lineTo(x, y + height);\n                g.lineTo(x, y + off);\n                g.closePath();\n                g.fillStyle = row.alarmColor;\n                g.fill();\n            }\n            \n            defaultDraw();\n        }"
+          }
+        ]
+      },
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": []
+      },
+      "thBackground": {
+        "func": "attr@ht.headbackground",
+        "value": null
+      },
+      "tdBackground": {
+        "func": "attr@ht.bodyBackground",
+        "value": null
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "rgb(212,212,212)"
+      },
+      "columnLineColor": {
+        "func": "attr@ht.columnLineColor",
+        "value": "rgb(212,212,212)"
+      },
+      "columnLineWidth": {
+        "func": "attr@ht.columnLineWidth",
+        "value": 0
+      },
+      "rowLineColor": {
+        "func": "attr@ht.rowLineColor",
+        "value": "rgb(212,212,212)"
+      },
+      "rowLineWidth": {
+        "func": "attr@ht.rowLineWidth",
+        "value": 0
+      },
+      "thHeight": {
+        "func": "attr@ht.headHeight",
+        "value": 35
+      },
+      "tdHeight": {
+        "func": "attr@ht.rowHeight",
+        "value": 36
+      },
+      "thColor": {
+        "func": "attr@ht.headTextColor",
+        "value": "rgb(51,153,255)"
+      },
+      "tdColor": {
+        "func": "attr@ht.bodyTextColor",
+        "value": "rgb(108,230,190)"
+      },
+      "cellPadding": {
+        "func": "attr@ht.cellPadding",
+        "value": 0
+      },
+      "thFont": {
+        "func": "attr@ht.headFont",
+        "value": "16px sans-serif, arial"
+      },
+      "tdFont": {
+        "func": "attr@ht.bodyFont",
+        "value": "16px sans-serif, arial"
+      },
+      "showHead": {
+        "func": "attr@ht.showHead",
+        "value": true
+      },
+      "translateX": {
+        "func": "attr@ht.translateX",
+        "value": 0
+      },
+      "translateY": {
+        "func": "attr@ht.translateY",
+        "value": 0
+      },
+      "hoverBackground": {
+        "func": "attr@ht.hoverBackground",
+        "value": null
+      },
+      "selectBackground": null,
+      "scrollable": {
+        "func": "attr@ht.scrollable",
+        "value": true
+      },
+      "autoHideScrollBar": {
+        "func": "attr@ht.autoHideScrollBar",
+        "value": false
+      },
+      "scrollBarColor": {
+        "func": "attr@ht.scrollBarColor",
+        "value": "rgba(255,255,255,0.67)"
+      },
+      "scrollBarWidth": {
+        "func": "attr@ht.scrollBarWidth",
+        "value": 5
+      },
+      "scrollBarWidthAbsolute": true,
+      "drawRow": "__ht__function (g, row, index, rect) {\n   /* if(row.alarmColor) {\ng.fillStyle = row.alarmColor;\n    g.fillRect(rect.x, rect.y, rect.width, rect.height);\n    }*/\n    \n}"
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "rotation": -1.5708,
+      "points": [
+        1535.38256,
+        162.12313,
+        1535.3815,
+        487.99751,
+        2075.09059,
+        487.99974,
+        2125.63525,
+        438.17302,
+        2125.63574,
+        303.62995
+      ]
+    },
+    {
+      "type": "text",
+      "text": "硬件用途：",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1410.29689,
+        18.7994,
+        58.06018,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@serverName",
+        "value": ""
+      },
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1555.44734,
+        18.5915,
+        116.12035,
+        22.47653
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar hidePanel = data.a('hidePanel');\nif(hidePanel) {\n    hidePanel();\n}\n}",
+      "points": [
+        2562.09573,
+        371.92268,
+        2539.79485,
+        357.6778,
+        2539.79485,
+        302.79425,
+        2793.81113,
+        302.79425,
+        2813.32551,
+        318.37798,
+        2813.32551,
+        371.92268
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        2561.71497,
+        369.57468,
+        251.61052,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "关闭面板",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2613.81293,
+        323.97808,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar hidePanel = data.a('hidePanel');\nif(hidePanel) {\n    hidePanel();\n}\n}",
+      "points": [
+        493.72259,
+        369.81629,
+        471.42171,
+        355.57142,
+        471.42171,
+        300.68786,
+        725.43799,
+        300.68786,
+        744.95236,
+        316.27159,
+        744.95236,
+        369.81629
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        493.34183,
+        367.4683,
+        251.61052,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "关闭面板",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        545.43979,
+        321.87169,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3855.44367,
+        334.45983,
+        22.0659,
+        18.64151
+      ]
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "v": "6.2.7",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "connectActionType": "copyStyle",
+    "rotateAsClock": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 5549,
+      "p": {
+        "displayName": "table",
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": -69.35355,
+          "y": 755.29872
+        },
+        "width": -1,
+        "height": -1
+      },
+      "a": {
+        "ht.headHeight": 32,
+        "ht.rowHeight": 28,
+        "ht.cellPadding": 0,
+        "ht.showHead": true,
+        "ht.dataSource": [
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO"
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO"
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务"
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台"
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO"
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO"
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务"
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台"
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发"
+          }
+        ],
+        "ht.columns": [
+          {
+            "key": "empNo",
+            "displayName": "工号",
+            "width": "80"
+          },
+          {
+            "key": "name",
+            "displayName": "姓名",
+            "width": "0.1"
+          },
+          {
+            "key": "sex",
+            "displayName": "性别",
+            "width": "0.2"
+          },
+          {
+            "key": "job",
+            "displayName": "岗位",
+            "width": "0.1"
+          }
+        ],
+        "ht.hoverBackground": "rgba(255,255,255,0.31)",
+        "ht.borderWidth": 0,
+        "ht.translateY": 0,
+        "ht.rowLineWidth": 0,
+        "ht.scrollBarWidth": 8,
+        "ht.translateX": 0,
+        "ht.showScrollBar": true,
+        "ht.scrollBarColor": "#FEB64D",
+        "ht.onClick": "__ht__function(row, data, view){\nconsole.log(row)\n}",
+        "ht.onSelectRow": "__ht__function(row, data, view){\n    console.log(row)\n}",
+        "ht.drawRow": "__ht__function (g, row, index, rect) {\n    if (index % 2 === 1) {\n        g.fillStyle = 'rgba(0, 92, 231, 0.3)'\n        g.fillRect(rect.x, rect.y, rect.width, rect.height);\n    }\n}",
+        "ht.autoHideScrollBar": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5550,
+      "p": {
+        "displayName": "table",
+        "image": "symbols/ht/ui/table.json",
+        "position": {
+          "x": 609.41663,
+          "y": 476.00789
+        },
+        "width": 487.25823,
+        "height": 300
+      },
+      "s": {
+        "2d.movable": false
+      },
+      "a": {
+        "ht.columns": [
+          {
+            "key": "empNo",
+            "displayName": "工号",
+            "width": "80"
+          },
+          {
+            "key": "name",
+            "displayName": "姓名",
+            "width": "60",
+            "align": "center",
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var defaultDraw = option.defaultDraw,\n                row = option.row,\n                x = rect.x + 5,\n                y = rect.y + 5,\n                width = rect.width - 10,\n                height = rect.height - 10,\n                off = 6;\n            if (row.sex === '女') {\n                g.beginPath();\n                g.moveTo(x + off, y);\n                g.lineTo(x + width, y);\n                g.lineTo(x + width, y + height - off);\n                g.lineTo(x + width - off, y + height);\n                g.lineTo(x, y + height);\n                g.lineTo(x, y + off);\n                g.closePath();\n                g.fillStyle = 'rgba(51,153,255,0.3)';\n                g.fill();\n            }\n            \n            defaultDraw();\n        }"
+          },
+          {
+            "key": "sex",
+            "align": "center",
+            "displayName": "性别"
+          },
+          {
+            "key": "job",
+            "displayName": "岗位"
+          },
+          {
+            "key": "workTime",
+            "displayName": "工时",
+            "align": "center",
+            "width": 112,
+            "drawCell": "__ht__function(g, text, rect, option) {\n            var font = option.font,\n                color = option.color,\n                x = rect.x,\n                y = rect.y,\n                width = rect.width,\n                height = rect.height,\n                radius = (height - 6) / 2,\n                defaultDraw = option.defaultDraw,\n                ts = ht.Default.getTextSize(font, text),\n                ts2 = ht.Default.getTextSize(font, '小时保养'),\n                tw = ts.width + ts2.width - 6,\n                padding = (width - tw) / 2;\n            \n            ht.Default.drawText(g, text, font, color, x , y, 50, height, 'right', 'middle');\n            ht.Default.drawText(g, '小时', font, 'rgb(124,145,155)', x + 50+4, y, ts2.width, height, 'left', 'middle');\n\n        }"
+          }
+        ],
+        "ht.dataSource": [
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO",
+            "workTime": 110
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO",
+            "workTime": 210
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务",
+            "workTime": 30
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 50
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 150
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 120
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 130
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 220
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台",
+            "workTime": 330
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 10
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 10
+          },
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO",
+            "workTime": 40
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO",
+            "workTime": 60
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务",
+            "workTime": 110
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 210
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 120
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 130
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发",
+            "workTime": 10
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 130
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台",
+            "workTime": 10
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 10
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发",
+            "workTime": 10
+          }
+        ],
+        "ht.columnLineWidth": 0,
+        "ht.rowLineWidth": 0,
+        "ht.scrollBarWidth": 6,
+        "ht.showHead": true,
+        "ht.scrollable": true,
+        "ht.autoHideScrollBar": false,
+        "ht.bodyFont": "14px Comic Sans MS",
+        "ht.headFont": "italic bold 14px Comic Sans MS"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5834,
+      "p": {
+        "displayName": "机柜弹窗1软件状态",
+        "image": "symbols/softPanel/机柜弹窗1软件状态.json",
+        "position": {
+          "x": 439.06275,
+          "y": 223.87552
+        }
+      },
+      "a": {
+        "ht.columns": [
+          {
+            "key": "empNo",
+            "displayName": "工号",
+            "width": "80"
+          },
+          {
+            "key": "name",
+            "displayName": "姓名",
+            "width": "0.1"
+          },
+          {
+            "key": "sex",
+            "displayName": "性别",
+            "width": "0.2"
+          },
+          {
+            "key": "job",
+            "displayName": "岗位",
+            "width": "0.1"
+          }
+        ],
+        "ht.dataSource": [
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO"
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO"
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务"
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台"
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht001",
+            "name": "唐尼",
+            "sex": "男",
+            "job": "CEO"
+          },
+          {
+            "empNo": "ht002",
+            "name": "张三",
+            "sex": "男",
+            "job": "CTO"
+          },
+          {
+            "empNo": "ht003",
+            "name": "吴妍",
+            "sex": "女",
+            "job": "财务"
+          },
+          {
+            "empNo": "ht004",
+            "name": "孙工",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht005",
+            "name": "赵平",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht006",
+            "name": "巫易",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht007",
+            "name": "傅坚",
+            "sex": "男",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht008",
+            "name": "周平",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht009",
+            "name": "陈蓉",
+            "sex": "女",
+            "job": "前台"
+          },
+          {
+            "empNo": "ht010",
+            "name": "孙丽",
+            "sex": "女",
+            "job": "开发"
+          },
+          {
+            "empNo": "ht011",
+            "name": "朱玉",
+            "sex": "女",
+            "job": "开发"
+          }
+        ]
+      }
+    }
+  ],
+  "modified": "Tue Nov 27 2018 17:35:14 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -1560.93725,
+    "y": -106.12448,
+    "width": 4000,
+    "height": 1011.4232
+  }
+}

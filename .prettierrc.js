@@ -9,5 +9,5 @@ module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: true,
   arrowParens: 'avoid',
-  htmlWhitespaceSensitivity: 'ignore',
+  htmlWhitespaceSensitivity: 'ignore'
 }
