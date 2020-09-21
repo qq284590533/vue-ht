@@ -57,10 +57,14 @@ export default class Screen {
 
     typeof callBack === 'function' && callBack(g2d, dm2d)
   }
-  init3dScreen(callBack) {
+  init3dScreen(callBack, el) {
     const dm3d = (this.dm3d = new ht.DataModel())
     const g3d = (this.g3d = new ht.graph3d.Graph3dView(dm3d))
-    g3d.addToDOM()
+    if (el) {
+      g3d.addToDOM(el)
+    } else {
+      g3d.addToDOM()
+    }
 
     typeof callBack === 'function' && callBack(g3d, dm3d)
   }

@@ -1,0 +1,93 @@
+{
+  "modified": "Sat Nov 10 2018 21:58:36 GMT+0800 (中国标准时间)",
+  "width": 228,
+  "height": 127,
+  "boundExtend": 24,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/标签/指向标签.json",
+      "displayName": "指向标签",
+      "rect": [
+        0,
+        0,
+        228,
+        127
+      ]
+    },
+    {
+      "type": "text",
+      "text": "B101",
+      "align": "right",
+      "color": "#32D3EB",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        21.51534,
+        0.84194,
+        64.20727,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "148",
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        95.16454,
+        25.67473,
+        59.64905,
+        38.1378
+      ]
+    },
+    {
+      "type": "text",
+      "text": "可容纳",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        12.49954,
+        26.85395,
+        73.22308,
+        35.77936
+      ]
+    },
+    {
+      "type": "text",
+      "text": "多媒体教室",
+      "color": "rgb(170,183,189)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        92.08146,
+        0.84194,
+        140.325,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "人",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        138.52031,
+        26.85395,
+        45.37591,
+        35.77936
+      ]
+    }
+  ]
+}

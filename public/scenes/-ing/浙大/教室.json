@@ -1,0 +1,3564 @@
+{
+  "v": "6.3.1",
+  "p": {
+    "background": "rgb(61,61,61)",
+    "envmap": "assets/贴图/环境光/室内2.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 1.5,
+        "threshold": 0.55,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Shape",
+      "i": 360,
+      "p": {
+        "position": {
+          "x": -202.80806,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 907.55571,
+        "height": 1546.0668,
+        "tall": 10,
+        "elevation": -6,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -656.58592,
+              "y": -766.8243
+            },
+            {
+              "x": 181.82269,
+              "y": -773.0334
+            },
+            {
+              "x": 186.14439,
+              "y": -400.48718
+            },
+            {
+              "x": 250.96979,
+              "y": -400.48718
+            },
+            {
+              "x": 250.96979,
+              "y": 773.0334
+            },
+            {
+              "x": -656.58592,
+              "y": 773.0334
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.image": "assets/贴图/地砖.png",
+        "shape3d.top.uv.scale": [
+          19,
+          34
+        ],
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.12,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 361,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "position": {
+          "x": -197.56166,
+          "y": 746.86889
+        },
+        "anchorElevation": 0,
+        "width": 918.0485,
+        "height": 307.58155,
+        "tall": 1,
+        "elevation": 4
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty2.png",
+        "shape3d.transparent": true,
+        "envmap": 0.1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 362,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 196.02997,
+          "y": 62.32815
+        },
+        "anchorElevation": 0,
+        "width": 1673.9015,
+        "height": 307.58155,
+        "tall": 1,
+        "elevation": 4
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty2.png",
+        "shape3d.transparent": true,
+        "envmap": 0.1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 363,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -578.0095,
+          "y": 62.32815
+        },
+        "anchorElevation": 0,
+        "width": 1673.9015,
+        "height": 307.58155,
+        "tall": 1,
+        "elevation": 4
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty2.png",
+        "shape3d.transparent": true,
+        "envmap": 0.1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 364,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -192.22164,
+          "y": -696.81224
+        },
+        "anchorElevation": 0,
+        "width": 1079.60101,
+        "height": 224.00221,
+        "tall": 1,
+        "elevation": 4
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty2.png",
+        "shape3d.transparent": true,
+        "envmap": 0.1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 365,
+      "p": {
+        "displayName": "墙面光",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 242.96081,
+          "y": -207.41012
+        },
+        "anchorElevation": 0,
+        "width": 333,
+        "height": 49.17206,
+        "tall": 222,
+        "elevation": 61.65984
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/墙面灯光高亮度.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 366,
+      "p": {
+        "displayName": "墙面光",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 242.96081,
+          "y": 115.9685
+        },
+        "anchorElevation": 0,
+        "width": 333,
+        "height": 49.17206,
+        "tall": 222,
+        "elevation": 61.65984
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/墙面灯光高亮度.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 367,
+      "p": {
+        "displayName": "墙面光",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 242.96081,
+          "y": 443.01515
+        },
+        "anchorElevation": 0,
+        "width": 333,
+        "height": 49.17206,
+        "tall": 222,
+        "elevation": 61.65984
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/墙面灯光高亮度.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 368,
+      "p": {
+        "displayName": "墙面光",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "position": {
+          "x": -401.59772,
+          "y": -764.09645
+        },
+        "anchorElevation": 0,
+        "width": 438.19137,
+        "height": 49.17206,
+        "tall": 222,
+        "elevation": 61.65984
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/墙面灯光高亮度.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 369,
+      "p": {
+        "displayName": "墙面光",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "position": {
+          "x": -77.59942,
+          "y": -764.09645
+        },
+        "anchorElevation": 0,
+        "width": 438.19137,
+        "height": 49.17206,
+        "tall": 222,
+        "elevation": 61.65984
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/墙面灯光高亮度.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 370,
+      "p": {
+        "displayName": "透明",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -198.88071,
+          "y": 0.80601
+        },
+        "anchorElevation": 0,
+        "width": 1543.8818,
+        "height": 908.1362,
+        "tall": 280,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -940.14304,
+              "y": 454.87408
+            },
+            {
+              "x": -970.82069,
+              "y": 454.87411
+            },
+            {
+              "x": -970.82161,
+              "y": -453.26209
+            },
+            {
+              "x": 573.06019,
+              "y": -453.26209
+            },
+            {
+              "x": 573.06019,
+              "y": 382.06451
+            },
+            {
+              "x": 203.25412,
+              "y": 382.06451
+            },
+            {
+              "x": 203.25412,
+              "y": 454.87291
+            },
+            {
+              "x": -940.14304,
+              "y": 454.87408
+            }
+          ]
+        },
+        "thickness": 14
+      },
+      "s": {
+        "all.color": "rgba(0,100,194,0.36)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.uv.scale": null,
+        "back.uv.scale": null,
+        "all.uv.scale": null,
+        "all.visible": false,
+        "front.visible": false,
+        "left.visible": false,
+        "right.visible": false,
+        "back.visible": true,
+        "top.visible": false,
+        "bottom.visible": false,
+        "bottom.color": null,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "back.transparent": true,
+        "front.transparent": true,
+        "all.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 371,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -198.88131,
+          "y": 0.80601
+        },
+        "anchorElevation": 0,
+        "width": 1543.8818,
+        "height": 908.135,
+        "tall": 280,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -835.99074,
+              "y": 454.87351
+            },
+            {
+              "x": -970.82221,
+              "y": 454.87351
+            },
+            {
+              "x": -970.82221,
+              "y": -453.26149
+            },
+            {
+              "x": 573.05959,
+              "y": -453.26149
+            },
+            {
+              "x": 573.05959,
+              "y": 382.06511
+            },
+            {
+              "x": 539.88025,
+              "y": 382.06511
+            },
+            {
+              "x": 355.66162,
+              "y": 382.06511
+            },
+            {
+              "x": 203.25352,
+              "y": 382.06511
+            },
+            {
+              "x": 203.25352,
+              "y": 454.87351
+            },
+            {
+              "x": -745.02884,
+              "y": 454.87351
+            }
+          ]
+        },
+        "thickness": 14
+      },
+      "s": {
+        "all.color": "rgb(235,235,235)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.uv.scale": null,
+        "front.image": "assets/贴图/墙面拉伸.jpg",
+        "back.uv.scale": null,
+        "all.uv.scale": null,
+        "all.visible": false,
+        "front.visible": true,
+        "left.visible": false,
+        "right.visible": false,
+        "all.reverse.cull": true,
+        "back.visible": false,
+        "top.visible": true,
+        "bottom.visible": false,
+        "bottom.color": null,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 372,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 182.07719,
+          "y": -599.6662
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白门.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 373,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 182.07719,
+          "y": -692.29
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白门.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 374,
+      "p": {
+        "displayName": "墙补充",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 182.57728,
+          "y": -645.9781
+        },
+        "anchorElevation": 1,
+        "width": 185.24759,
+        "height": 1,
+        "tall": 80,
+        "elevation": 280,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 275.20108,
+              "y": -645.9781
+            },
+            {
+              "x": 89.95349,
+              "y": -645.9781
+            }
+          ]
+        },
+        "thickness": 14
+      },
+      "s": {
+        "all.color": "rgb(235,235,235)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.uv.scale": [
+          1,
+          0.3
+        ],
+        "front.image": "assets/贴图/墙面拉伸.jpg",
+        "back.uv.scale": [
+          1,
+          1
+        ],
+        "all.uv.scale": null,
+        "all.visible": false,
+        "front.visible": true,
+        "left.visible": false,
+        "right.visible": false,
+        "back.visible": false,
+        "top.visible": true,
+        "bottom.visible": false,
+        "bottom.color": null,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "all.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 375,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 255.18619,
+          "y": 593.07812
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白门.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 376,
+      "p": {
+        "displayName": "墙补充",
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 255.18619,
+          "y": 593.07812
+        },
+        "anchorElevation": 1,
+        "width": 92.62381,
+        "height": 1,
+        "tall": 80,
+        "elevation": 280,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 301.4981,
+              "y": 593.07812
+            },
+            {
+              "x": 208.87428,
+              "y": 593.07812
+            }
+          ]
+        },
+        "thickness": 14
+      },
+      "s": {
+        "all.color": "rgb(235,235,235)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.uv.scale": [
+          1,
+          0.3
+        ],
+        "front.image": "assets/贴图/墙面拉伸.jpg",
+        "back.uv.scale": [
+          1,
+          1
+        ],
+        "all.uv.scale": null,
+        "all.visible": false,
+        "front.visible": true,
+        "left.visible": false,
+        "right.visible": false,
+        "back.visible": false,
+        "top.visible": true,
+        "bottom.visible": false,
+        "bottom.color": null,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "all.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 377,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -647.24387,
+          "y": 147.12986
+        },
+        "anchorElevation": 0,
+        "elevation": 55.87345
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白窗.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 378,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -696.57272,
+          "y": 147.12986
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 188.04548,
+        "height": 101.41549,
+        "tall": 223,
+        "elevation": 55
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/窗外2.jpg",
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.4,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 379,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -647.24387,
+          "y": 452.33658
+        },
+        "anchorElevation": 0,
+        "elevation": 55.87345
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白窗.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 380,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -696.57272,
+          "y": 452.33658
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 188.04548,
+        "height": 101.41549,
+        "tall": 223,
+        "elevation": 55
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/窗外1.jpg",
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.4,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 381,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -647.24387,
+          "y": -157.94735
+        },
+        "anchorElevation": 0,
+        "elevation": 55.87345
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白窗.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 382,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -696.57272,
+          "y": -157.94735
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 188.04548,
+        "height": 101.41549,
+        "tall": 223,
+        "elevation": 55
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/窗外3.jpg",
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.4,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 383,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -647.24387,
+          "y": -470.12602
+        },
+        "anchorElevation": 0,
+        "elevation": 55.87345
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/白窗.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 384,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "host": {
+          "__i": 360
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -696.57272,
+          "y": -470.12602
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 188.04548,
+        "height": 101.41549,
+        "tall": 223,
+        "elevation": 55
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/贴图/窗外2.jpg",
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.4,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 385,
+      "p": {
+        "position": {
+          "x": -472.40762,
+          "y": 393.20688
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/梯形桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 386,
+      "p": {
+        "parent": {
+          "__i": 385
+        },
+        "host": {
+          "__i": 385
+        },
+        "position": {
+          "x": -470.22393,
+          "y": 394.08079
+        },
+        "anchorElevation": 0,
+        "width": 211.84832,
+        "height": 283.47406,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 387,
+      "p": {
+        "parent": {
+          "__i": 385
+        },
+        "host": {
+          "__i": 385
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -516.15166,
+          "y": 308.18689
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 388,
+      "p": {
+        "parent": {
+          "__i": 385
+        },
+        "host": {
+          "__i": 385
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -424.21872,
+          "y": 308.18689
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 389,
+      "p": {
+        "parent": {
+          "__i": 385
+        },
+        "host": {
+          "__i": 385
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -424.21872,
+          "y": 478.04908
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 390,
+      "p": {
+        "parent": {
+          "__i": 385
+        },
+        "host": {
+          "__i": 385
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -516.15166,
+          "y": 478.04908
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 391,
+      "p": {
+        "rotation": 0.81758,
+        "rotationX": 0.00662,
+        "position": {
+          "x": -461.63987,
+          "y": 611.95562
+        },
+        "anchorElevation": 0,
+        "width": 79.75992,
+        "height": 109.71611,
+        "tall": 120.8316
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/方形桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 392,
+      "p": {
+        "parent": {
+          "__i": 391
+        },
+        "host": {
+          "__i": 391
+        },
+        "rotation": -0.95437,
+        "rotationX": -0.00132,
+        "rotationZ": 0.00649,
+        "position": {
+          "x": -469.52802,
+          "y": 620.19168
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 120.80943
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/台式电脑.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 393,
+      "p": {
+        "parent": {
+          "__i": 391
+        },
+        "host": {
+          "__i": 391
+        },
+        "rotation": 0.81758,
+        "rotationX": 0.00662,
+        "position": {
+          "x": -464.06386,
+          "y": 614.22844
+        },
+        "anchorElevation": 0,
+        "width": 133.75895,
+        "height": 141.40205,
+        "tall": 1,
+        "elevation": 4.35928
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "envmap": 0.1,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 394,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": 121.8839,
+          "y": -230.44428
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/电视办公桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 395,
+      "p": {
+        "parent": {
+          "__i": 394
+        },
+        "host": {
+          "__i": 394
+        },
+        "position": {
+          "x": 156.08481,
+          "y": -230.44428
+        },
+        "anchorElevation": 0,
+        "width": 311.75511,
+        "height": 342.2214,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 396,
+      "p": {
+        "parent": {
+          "__i": 394
+        },
+        "host": {
+          "__i": 394
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 67.58137,
+          "y": -331.07058
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 397,
+      "p": {
+        "parent": {
+          "__i": 394
+        },
+        "host": {
+          "__i": 394
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 159.51431,
+          "y": -331.07058
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 398,
+      "p": {
+        "parent": {
+          "__i": 394
+        },
+        "host": {
+          "__i": 394
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 159.51431,
+          "y": -123.97047
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 399,
+      "p": {
+        "parent": {
+          "__i": 394
+        },
+        "host": {
+          "__i": 394
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 67.58137,
+          "y": -123.97047
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 400,
+      "p": {
+        "position": {
+          "x": -472.40762,
+          "y": 50.78015
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/梯形桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 401,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -470.22393,
+          "y": 51.65406
+        },
+        "anchorElevation": 0,
+        "width": 211.84832,
+        "height": 283.47406,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 402,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -516.15166,
+          "y": -34.23984
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 403,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -424.21872,
+          "y": -34.23984
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 404,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -424.21872,
+          "y": 135.62235
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 405,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -516.15166,
+          "y": 135.62235
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 406,
+      "p": {
+        "position": {
+          "x": -472.40762,
+          "y": -291.64658
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/梯形桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 407,
+      "p": {
+        "parent": {
+          "__i": 406
+        },
+        "host": {
+          "__i": 406
+        },
+        "position": {
+          "x": -470.22393,
+          "y": -290.77267
+        },
+        "anchorElevation": 0,
+        "width": 211.84832,
+        "height": 283.47406,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 408,
+      "p": {
+        "parent": {
+          "__i": 406
+        },
+        "host": {
+          "__i": 406
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -516.15166,
+          "y": -376.66657
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 409,
+      "p": {
+        "parent": {
+          "__i": 406
+        },
+        "host": {
+          "__i": 406
+        },
+        "rotation": 4.31389,
+        "position": {
+          "x": -432.86972,
+          "y": -389.77599
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 410,
+      "p": {
+        "parent": {
+          "__i": 406
+        },
+        "host": {
+          "__i": 406
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -424.21872,
+          "y": -206.80438
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 411,
+      "p": {
+        "parent": {
+          "__i": 406
+        },
+        "host": {
+          "__i": 406
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -516.15166,
+          "y": -206.80438
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 412,
+      "p": {
+        "position": {
+          "x": -472.40762,
+          "y": -634.07332
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/梯形桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 413,
+      "p": {
+        "parent": {
+          "__i": 412
+        },
+        "host": {
+          "__i": 412
+        },
+        "position": {
+          "x": -470.22393,
+          "y": -633.19941
+        },
+        "anchorElevation": 0,
+        "width": 211.84832,
+        "height": 283.47406,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 414,
+      "p": {
+        "parent": {
+          "__i": 412
+        },
+        "host": {
+          "__i": 412
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -516.15166,
+          "y": -719.09331
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 415,
+      "p": {
+        "parent": {
+          "__i": 412
+        },
+        "host": {
+          "__i": 412
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -424.21872,
+          "y": -719.09331
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 416,
+      "p": {
+        "parent": {
+          "__i": 412
+        },
+        "host": {
+          "__i": 412
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -424.21872,
+          "y": -549.23112
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 417,
+      "p": {
+        "parent": {
+          "__i": 412
+        },
+        "host": {
+          "__i": 412
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -516.15166,
+          "y": -549.23112
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 418,
+      "p": {
+        "rotation": 4.71239,
+        "position": {
+          "x": -606.79481,
+          "y": 302.27689
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/移动电视.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 419,
+      "p": {
+        "parent": {
+          "__i": 418
+        },
+        "host": {
+          "__i": 418
+        },
+        "position": {
+          "x": -607.50925,
+          "y": 294.54911
+        },
+        "anchorElevation": 0,
+        "width": 119.91538,
+        "height": 218.8418,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 420,
+      "p": {
+        "rotation": 4.71239,
+        "position": {
+          "x": -606.79481,
+          "y": 6.27275
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/移动电视.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 421,
+      "p": {
+        "parent": {
+          "__i": 420
+        },
+        "host": {
+          "__i": 420
+        },
+        "position": {
+          "x": -607.50925,
+          "y": -1.45503
+        },
+        "anchorElevation": 0,
+        "width": 119.91538,
+        "height": 218.8418,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 422,
+      "p": {
+        "rotation": 4.71239,
+        "position": {
+          "x": -606.79481,
+          "y": -312.38461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/移动电视.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 423,
+      "p": {
+        "parent": {
+          "__i": 422
+        },
+        "host": {
+          "__i": 422
+        },
+        "position": {
+          "x": -607.50925,
+          "y": -320.11239
+        },
+        "anchorElevation": 0,
+        "width": 119.91538,
+        "height": 218.8418,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 424,
+      "p": {
+        "rotation": 4.71239,
+        "position": {
+          "x": -606.79481,
+          "y": -661.11363
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/移动电视.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 425,
+      "p": {
+        "parent": {
+          "__i": 424
+        },
+        "host": {
+          "__i": 424
+        },
+        "position": {
+          "x": -607.50925,
+          "y": -668.84141
+        },
+        "anchorElevation": 0,
+        "width": 119.91538,
+        "height": 218.8418,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 426,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": 121.8839,
+          "y": 105.69796
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/电视办公桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 427,
+      "p": {
+        "parent": {
+          "__i": 426
+        },
+        "host": {
+          "__i": 426
+        },
+        "position": {
+          "x": 156.08481,
+          "y": 105.69796
+        },
+        "anchorElevation": 0,
+        "width": 311.75511,
+        "height": 342.2214,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 428,
+      "p": {
+        "parent": {
+          "__i": 426
+        },
+        "host": {
+          "__i": 426
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 67.58137,
+          "y": 5.07166
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 429,
+      "p": {
+        "parent": {
+          "__i": 426
+        },
+        "host": {
+          "__i": 426
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 159.51431,
+          "y": 5.07166
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 430,
+      "p": {
+        "parent": {
+          "__i": 426
+        },
+        "host": {
+          "__i": 426
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 159.51431,
+          "y": 212.17177
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 431,
+      "p": {
+        "parent": {
+          "__i": 426
+        },
+        "host": {
+          "__i": 426
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 67.58137,
+          "y": 212.17177
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 432,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": 121.8839,
+          "y": 437.8792
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/电视办公桌.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 433,
+      "p": {
+        "parent": {
+          "__i": 432
+        },
+        "host": {
+          "__i": 432
+        },
+        "position": {
+          "x": 156.08481,
+          "y": 437.8792
+        },
+        "anchorElevation": 0,
+        "width": 311.75511,
+        "height": 342.2214,
+        "tall": 1,
+        "elevation": 4.38118
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty3.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 434,
+      "p": {
+        "parent": {
+          "__i": 432
+        },
+        "host": {
+          "__i": 432
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 67.58137,
+          "y": 337.2529
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 435,
+      "p": {
+        "parent": {
+          "__i": 432
+        },
+        "host": {
+          "__i": 432
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 159.51431,
+          "y": 337.2529
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 436,
+      "p": {
+        "parent": {
+          "__i": 432
+        },
+        "host": {
+          "__i": 432
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 159.51431,
+          "y": 544.35301
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 437,
+      "p": {
+        "parent": {
+          "__i": 432
+        },
+        "host": {
+          "__i": 432
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 67.58137,
+          "y": 544.35301
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/椅子2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 456,
+      "p": {
+        "rotation": 3.14159,
+        "position": {
+          "x": -211.9116,
+          "y": 763.5964
+        },
+        "anchorElevation": 0,
+        "width": 457.98593,
+        "height": 10.65182,
+        "tall": 198.7747,
+        "elevation": 76.01102
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/大屏电视.json",
+        "wf.visible": "selected",
+        "envmap": 0.04,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 457,
+      "p": {
+        "rotation": 0.46673,
+        "position": {
+          "x": 85.27853,
+          "y": -702.51865
+        },
+        "anchorElevation": 0,
+        "width": 20,
+        "height": 60,
+        "tall": 90,
+        "elevation": 219.38908
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/摄像头1.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 458,
+      "p": {
+        "rotation": 2.31473,
+        "position": {
+          "x": 196.02997,
+          "y": 713.36162
+        },
+        "anchorElevation": 0,
+        "width": 20,
+        "height": 60,
+        "tall": 90,
+        "elevation": 219.38908
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/摄像头1.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 459,
+      "p": {
+        "position": {
+          "x": 165.38219,
+          "y": 763.947
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 197.74793
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/信号基站.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 460,
+      "p": {
+        "rotation": -3.14159,
+        "position": {
+          "x": 100.68109,
+          "y": 757.1455
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.4,
+          "y": 1.4
+        },
+        "scaleTall": 1.4,
+        "elevation": 119.189
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/报警器2.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 461,
+      "p": {
+        "rotation": -3.14159,
+        "position": {
+          "x": 183.32993,
+          "y": 763.76534
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 3,
+          "y": 2
+        },
+        "scaleTall": 3,
+        "elevation": 113.84682
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/消火栓.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 462,
+      "p": {
+        "position": {
+          "x": -208.27465,
+          "y": 52.09449
+        },
+        "anchorElevation": 0,
+        "width": 24,
+        "height": 24,
+        "tall": 8,
+        "elevation": 275.8834
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/烟感.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 463,
+      "p": {
+        "parent": {
+          "__i": 462
+        },
+        "host": {
+          "__i": 462
+        },
+        "rotationZ": 3.14159,
+        "position": {
+          "x": -208.27465,
+          "y": 52.09449
+        },
+        "anchorElevation": 0,
+        "width": 24,
+        "height": 24,
+        "tall": 8,
+        "elevation": 275.64207
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/烟感.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 464,
+      "p": {
+        "displayName": "摄像头",
+        "image": "symbols/3d场景用/标签/校园/摄像头.json",
+        "position": {
+          "x": 124.87585,
+          "y": -724.9915
+        },
+        "anchorElevation": 0,
+        "width": 228,
+        "height": 61.88113,
+        "elevation": 303.72284
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/标签/校园/摄像头.json",
+        "shape3d.image.cache": true,
+        "shape3d.autorotate": true,
+        "shape3d.alwaysOnTop": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 465,
+      "p": {
+        "displayName": "摄像头",
+        "image": "symbols/3d场景用/标签/校园/摄像头.json",
+        "position": {
+          "x": 209.90231,
+          "y": 721.61776
+        },
+        "anchorElevation": 0,
+        "width": 228,
+        "height": 61.88113,
+        "elevation": 303.72284
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/标签/校园/摄像头.json",
+        "shape3d.image.cache": true,
+        "shape3d.autorotate": true,
+        "shape3d.alwaysOnTop": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 466,
+      "p": {
+        "rotation": 3.14159,
+        "position": {
+          "x": 86.72231,
+          "y": 743.40871
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 5,
+          "y": 2
+        },
+        "scaleTall": 5,
+        "elevation": 206.88718
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/音响.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 467,
+      "p": {
+        "rotation": 3.14159,
+        "position": {
+          "x": -500.22229,
+          "y": 743.40871
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 5,
+          "y": 2
+        },
+        "scaleTall": 5,
+        "elevation": 206.88718
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/音响.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 468,
+      "p": {
+        "position": {
+          "x": -500.22229,
+          "y": -757.85606
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 5,
+          "y": 2
+        },
+        "scaleTall": 5,
+        "elevation": 206.88718
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/音响.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 469,
+      "p": {
+        "position": {
+          "x": 1.39242,
+          "y": -757.85606
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 5,
+          "y": 2
+        },
+        "scaleTall": 5,
+        "elevation": 206.88718
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/室内配饰/音响.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 470,
+      "p": {
+        "rotation": 3.14159,
+        "position": {
+          "x": 615.92746,
+          "y": 1613.94721
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 2534.22299,
+        "height": 6747.58532,
+        "tall": 280,
+        "elevation": 140,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -645.45897,
+              "y": -1758.86159
+            },
+            {
+              "x": 1883.03896,
+              "y": -1759.84544
+            },
+            {
+              "x": 1882.8734,
+              "y": -1185.20687
+            },
+            {
+              "x": 1882.83118,
+              "y": -1038.63972
+            },
+            {
+              "x": 1883.03896,
+              "y": -780.71026
+            },
+            {
+              "x": 1883.03896,
+              "y": 773.51617
+            },
+            {
+              "x": 1881.09496,
+              "y": 4987.73987
+            },
+            {
+              "x": 1792.70045,
+              "y": 4987.57499
+            },
+            {
+              "x": 1670.01592,
+              "y": 4987.34616
+            },
+            {
+              "x": 786.7413,
+              "y": 4985.69863
+            },
+            {
+              "x": 677.21352,
+              "y": 4985.49434
+            },
+            {
+              "x": -338.15145,
+              "y": 4983.60043
+            },
+            {
+              "x": -554.74634,
+              "y": 4983.19643
+            },
+            {
+              "x": -651.18403,
+              "y": 4983.01655
+            },
+            {
+              "x": -651.11807,
+              "y": 4856.46537
+            },
+            {
+              "x": -651.04932,
+              "y": 4724.5396
+            },
+            {
+              "x": -648.00244,
+              "y": -1121.87536
+            },
+            {
+              "x": -647.92612,
+              "y": -1268.31311
+            },
+            {
+              "x": -647.67053,
+              "y": -1758.74517
+            },
+            {
+              "x": 587.15758,
+              "y": -1397.31792
+            },
+            {
+              "x": -648.00244,
+              "y": -1397.31792
+            },
+            {
+              "x": -645.45897,
+              "y": -991.9293
+            },
+            {
+              "x": 567.26298,
+              "y": -991.9293
+            },
+            {
+              "x": -32.66397,
+              "y": -991.9293
+            },
+            {
+              "x": -32.66397,
+              "y": 90.30258
+            },
+            {
+              "x": -32.66397,
+              "y": 237.61447
+            },
+            {
+              "x": -32.66397,
+              "y": 1108.00209
+            },
+            {
+              "x": -32.66397,
+              "y": 287.39467
+            },
+            {
+              "x": 601.33405,
+              "y": 287.39467
+            },
+            {
+              "x": 601.33405,
+              "y": 662.25429
+            },
+            {
+              "x": 601.33405,
+              "y": 834.38155
+            },
+            {
+              "x": 601.33405,
+              "y": 1285.05451
+            },
+            {
+              "x": 601.33405,
+              "y": 1421.38445
+            },
+            {
+              "x": 601.33405,
+              "y": 1662.66525
+            },
+            {
+              "x": -32.66397,
+              "y": -76.08624
+            },
+            {
+              "x": 119.64363,
+              "y": -76.08624
+            },
+            {
+              "x": 313.16347,
+              "y": -76.08624
+            },
+            {
+              "x": 567.26298,
+              "y": -76.08624
+            },
+            {
+              "x": 567.26298,
+              "y": -1468.43789
+            },
+            {
+              "x": 567.26298,
+              "y": -1636.6662
+            },
+            {
+              "x": 567.26298,
+              "y": -1758.74517
+            },
+            {
+              "x": 1355.38182,
+              "y": -1759.84544
+            },
+            {
+              "x": 1355.38182,
+              "y": -1653.03175
+            },
+            {
+              "x": 1355.38182,
+              "y": -1482.90938
+            },
+            {
+              "x": 1355.38182,
+              "y": -1395.84486
+            },
+            {
+              "x": 1881.09496,
+              "y": -1395.84486
+            },
+            {
+              "x": 1883.03896,
+              "y": -1038.63972
+            },
+            {
+              "x": 1670.01592,
+              "y": -1038.63972
+            },
+            {
+              "x": 1445.42096,
+              "y": -1020.01906
+            },
+            {
+              "x": 1026.7264,
+              "y": -1020.01906
+            },
+            {
+              "x": 1026.7264,
+              "y": -780.71026
+            },
+            {
+              "x": 5.97116,
+              "y": 1662.66525
+            },
+            {
+              "x": 5.97116,
+              "y": 1108.00209
+            },
+            {
+              "x": 601.33405,
+              "y": 1108.00209
+            },
+            {
+              "x": -645.45897,
+              "y": 1108.00209
+            },
+            {
+              "x": -645.45897,
+              "y": 1662.66525
+            },
+            {
+              "x": -296.46336,
+              "y": 1662.66525
+            },
+            {
+              "x": -94.07716,
+              "y": 1662.66525
+            },
+            {
+              "x": 601.33405,
+              "y": 1662.66525
+            },
+            {
+              "x": 1881.09496,
+              "y": 3709.84494
+            },
+            {
+              "x": 951.6379,
+              "y": 3709.84494
+            },
+            {
+              "x": 1881.09496,
+              "y": 4211.01578
+            },
+            {
+              "x": 867.71228,
+              "y": 4211.01578
+            },
+            {
+              "x": 867.71228,
+              "y": 4255.07828
+            },
+            {
+              "x": 867.71228,
+              "y": 4328.80011
+            },
+            {
+              "x": 867.71228,
+              "y": 4881.71923
+            },
+            {
+              "x": 867.71228,
+              "y": 4954.07963
+            },
+            {
+              "x": 867.71228,
+              "y": 4983.01655
+            },
+            {
+              "x": 946.37016,
+              "y": 4211.01578
+            },
+            {
+              "x": 947.07152,
+              "y": 3911.71458
+            },
+            {
+              "x": 947.39014,
+              "y": 3775.73879
+            },
+            {
+              "x": 947.71244,
+              "y": 3638.2021
+            },
+            {
+              "x": 948.04571,
+              "y": 3495.98047
+            },
+            {
+              "x": 948.44271,
+              "y": 3326.55864
+            },
+            {
+              "x": 948.78485,
+              "y": 3180.54833
+            },
+            {
+              "x": 949.18971,
+              "y": 3007.78029
+            },
+            {
+              "x": 949.52716,
+              "y": 2863.7709
+            },
+            {
+              "x": 949.88874,
+              "y": 2709.47203
+            },
+            {
+              "x": 950.2111,
+              "y": 2571.90224
+            },
+            {
+              "x": 951.16216,
+              "y": 2166.0361
+            },
+            {
+              "x": 950.98477,
+              "y": 2027.07488
+            },
+            {
+              "x": 950.42502,
+              "y": 1588.58823
+            },
+            {
+              "x": 949.38699,
+              "y": 1435.23359
+            },
+            {
+              "x": 946.32636,
+              "y": 983.06956
+            },
+            {
+              "x": 976.42591,
+              "y": 821.15111
+            },
+            {
+              "x": 976.42591,
+              "y": 773.51617
+            },
+            {
+              "x": 951.6379,
+              "y": 1804.25618
+            },
+            {
+              "x": 1883.03896,
+              "y": 1804.25618
+            },
+            {
+              "x": 1881.09496,
+              "y": 4451.51204
+            },
+            {
+              "x": 1026.7264,
+              "y": 4451.51204
+            },
+            {
+              "x": 947.71244,
+              "y": 3403.12555
+            },
+            {
+              "x": 1883.03896,
+              "y": 3403.12555
+            },
+            {
+              "x": 951.6379,
+              "y": 3096.9237
+            },
+            {
+              "x": 1883.03896,
+              "y": 3096.9237
+            },
+            {
+              "x": 949.88874,
+              "y": 2785.58311
+            },
+            {
+              "x": 1883.03896,
+              "y": 2785.58311
+            },
+            {
+              "x": 951.6379,
+              "y": 2475.60561
+            },
+            {
+              "x": 1881.09496,
+              "y": 2475.60561
+            },
+            {
+              "x": 587.15758,
+              "y": 4616.18998
+            },
+            {
+              "x": 587.15758,
+              "y": 4985.69863
+            },
+            {
+              "x": -645.45897,
+              "y": 4616.18998
+            },
+            {
+              "x": -557.20018,
+              "y": 4616.18998
+            },
+            {
+              "x": -354.28884,
+              "y": 4616.18998
+            },
+            {
+              "x": 587.15758,
+              "y": 4616.18998
+            },
+            {
+              "x": 867.71228,
+              "y": 4616.18998
+            },
+            {
+              "x": 1883.03896,
+              "y": 4616.18998
+            },
+            {
+              "x": -199.33242,
+              "y": 2863.7709
+            },
+            {
+              "x": -199.33242,
+              "y": 2376.28614
+            },
+            {
+              "x": -651.18403,
+              "y": 1952.91954
+            },
+            {
+              "x": -501.97547,
+              "y": 1952.91954
+            },
+            {
+              "x": -501.97547,
+              "y": 1871.41919
+            },
+            {
+              "x": -170.70499,
+              "y": 1871.41919
+            },
+            {
+              "x": 78.76901,
+              "y": 1871.41919
+            },
+            {
+              "x": 281.20789,
+              "y": 1871.41919
+            },
+            {
+              "x": 485.69554,
+              "y": 1871.41919
+            },
+            {
+              "x": 607.00369,
+              "y": 1871.41919
+            },
+            {
+              "x": 101.25624,
+              "y": 1871.41919
+            },
+            {
+              "x": 101.25624,
+              "y": 2376.28614
+            },
+            {
+              "x": -651.18403,
+              "y": 2376.28614
+            },
+            {
+              "x": 607.00369,
+              "y": 2376.28614
+            },
+            {
+              "x": 243.5613,
+              "y": 2376.28614
+            },
+            {
+              "x": 243.5613,
+              "y": 2863.7709
+            },
+            {
+              "x": 607.00369,
+              "y": 1871.41919
+            },
+            {
+              "x": 607.00369,
+              "y": 2863.7709
+            },
+            {
+              "x": 505.27764,
+              "y": 2863.7709
+            },
+            {
+              "x": 292.29153,
+              "y": 2863.7709
+            },
+            {
+              "x": 136.93983,
+              "y": 2863.7709
+            },
+            {
+              "x": -61.61019,
+              "y": 2863.7709
+            },
+            {
+              "x": -424.19762,
+              "y": 2863.7709
+            },
+            {
+              "x": -651.18403,
+              "y": 3072.28813
+            },
+            {
+              "x": -463.12214,
+              "y": 3072.28813
+            },
+            {
+              "x": -199.33242,
+              "y": 3072.28813
+            },
+            {
+              "x": -199.33242,
+              "y": 3545.83882
+            },
+            {
+              "x": 197.6723,
+              "y": 3545.83882
+            },
+            {
+              "x": -645.45897,
+              "y": 3545.83882
+            },
+            {
+              "x": -253.45648,
+              "y": 3072.28813
+            },
+            {
+              "x": -12.21864,
+              "y": 3072.28813
+            },
+            {
+              "x": 197.6723,
+              "y": 3072.28813
+            },
+            {
+              "x": 224.77818,
+              "y": 3072.28813
+            },
+            {
+              "x": 224.77818,
+              "y": 3711.7412
+            },
+            {
+              "x": 224.77818,
+              "y": 3733.25704
+            },
+            {
+              "x": -199.33242,
+              "y": 4375.91183
+            },
+            {
+              "x": -199.33242,
+              "y": 3883.4684
+            },
+            {
+              "x": -651.18403,
+              "y": 3883.4684
+            },
+            {
+              "x": 224.77818,
+              "y": 3883.4684
+            },
+            {
+              "x": 224.77818,
+              "y": 4389.92612
+            },
+            {
+              "x": 179.74243,
+              "y": 4389.92612
+            },
+            {
+              "x": -16.86341,
+              "y": 4389.92612
+            },
+            {
+              "x": -379.45057,
+              "y": 4389.92612
+            },
+            {
+              "x": -597.16411,
+              "y": 4389.92612
+            },
+            {
+              "x": -645.45897,
+              "y": 4389.92612
+            }
+          ]
+        },
+        "thickness": 14
+      },
+      "s": {
+        "all.color": "rgba(0,100,194,0.36)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "top.color": null,
+        "left.color": null,
+        "right.color": null,
+        "all.visible": false,
+        "back.visible": true,
+        "all.reverse.flip": true,
+        "front.transparent": true,
+        "back.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      2176.50964,
+      949.01221,
+      8.32031
+    ],
+    "center": [
+      -352.18311,
+      371.34442,
+      40.78641
+    ],
+    "near": 10,
+    "far": 20000,
+    "background": "rgb(61,61,61)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

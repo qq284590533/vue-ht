@@ -12,5 +12,5 @@ newmtl Material__35
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka sxt.jpg
-	map_Kd sxt.jpg
+	map_Ka assets/objs/机房/sxt.jpg
+	map_Kd assets/objs/机房/sxt.jpg

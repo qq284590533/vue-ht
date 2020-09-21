@@ -8,7 +8,7 @@ import PreLoadSource from '../../util/preLoadSource'
 import '../config'
 
 class MainEntry {
-  constructor() {
+  constructor(el) {
     this.opacityMap = {}
     this.openedCabinet = []
     this.scene = new Scene()
@@ -30,7 +30,7 @@ class MainEntry {
           }
         }
       })
-    })
+    }, el)
     this.scene.init2dScreen()
     this.homeG3d = this.scene.g3d
     this.homeDm = this.scene.dm3d

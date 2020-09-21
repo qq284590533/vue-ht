@@ -1,0 +1,13 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/建筑物/东二教学楼.obj",
+  "mtl": "assets/objs/建筑物/东二教学楼.mtl",
+  "reverseFlipMtls": "*",
+  "s3": [
+    1,
+    1,
+    1
+  ],
+  "image": "",
+  "prefix": "assets/objs/建筑物/"
+}

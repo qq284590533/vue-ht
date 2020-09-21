@@ -8,4 +8,9 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.ht-view-container {
+  width: 100%;
+  height: 100%;
+}
+</style>

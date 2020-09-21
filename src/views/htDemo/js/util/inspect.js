@@ -217,8 +217,10 @@ export default class Inspect {
     let roadPoints = null
     const inspectTime = roadData.inspectTime || 1000
     if (roadData.roadTag) {
+      // 根据标签名称获取路线数据模型
       const inspectRoad = this.g3dDm.getDataByTag(roadData.roadTag)
       if (inspectRoad) {
+        // 获取路线的点位信息
         roadPoints = inspectRoad.getPoints().toArray()
       }
     } else {
@@ -361,6 +363,8 @@ export default class Inspect {
         x: toPoint.x - midPoint.x,
         y: toPoint.y - midPoint.y
       }
+
+      // 计算路线长度（勾股定理）
       const fromLineLength = Math.sqrt(Math.pow(fromLine.x, 2) + Math.pow(fromLine.y, 2))
       const toLineLength = Math.sqrt(Math.pow(toLine.x, 2) + Math.pow(toLine.y, 2))
       const unitVectorFrom = {
@@ -371,14 +375,19 @@ export default class Inspect {
         x: toLine.x / toLineLength,
         y: toLine.y / toLineLength
       }
+
+      // 计算向量长度
       const vectorFromLength = Math.sqrt(
         Math.pow(unitVectorFrom.x, 2) + Math.pow(unitVectorFrom.y, 2)
       )
       const vectorToLength = Math.sqrt(Math.pow(unitVectorTo.x, 2) + Math.pow(unitVectorTo.y, 2))
 
+      // 向量法计算余弦值
       const angleVal =
         (unitVectorFrom.x * unitVectorTo.x + unitVectorFrom.y * unitVectorTo.y) /
         (vectorFromLength * vectorToLength)
+
+      // 反余弦计算角度
       const angle = Math.acos(angleVal)
       const k = fromLine.x * toLine.y - toLine.x * fromLine.y
       if (k < 0) {

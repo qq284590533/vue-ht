@@ -1,0 +1,80 @@
+{
+  "modified": "Wed Feb 27 2019 16:06:09 GMT+0800 (中国标准时间)",
+  "width": 228,
+  "height": 127,
+  "boundExtend": 24,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/标签/指向标签.json",
+      "displayName": "指向标签",
+      "rect": [
+        0,
+        0,
+        228,
+        127
+      ]
+    },
+    {
+      "type": "text",
+      "text": "156",
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        95.16454,
+        25.67473,
+        59.64905,
+        38.1378
+      ]
+    },
+    {
+      "type": "text",
+      "text": "教室",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        12.49954,
+        26.85395,
+        73.22308,
+        35.77936
+      ]
+    },
+    {
+      "type": "text",
+      "text": "东二教学楼",
+      "align": "center",
+      "color": "rgb(93,217,174)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        0.84194,
+        228,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "间",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        138.52031,
+        26.85395,
+        45.37591,
+        35.77936
+      ]
+    }
+  ]
+}

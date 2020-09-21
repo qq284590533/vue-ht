@@ -1,0 +1,60 @@
+{
+  "modified": "Thu Feb 28 2019 12:03:50 GMT+0800 (中国标准时间)",
+  "width": 228,
+  "height": 127,
+  "boundExtend": 24,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/标签/指向标签.json",
+      "displayName": "指向标签",
+      "rect": [
+        0,
+        0,
+        228,
+        127
+      ]
+    },
+    {
+      "type": "text",
+      "text": "摄像头",
+      "align": "center",
+      "color": "rgb(93,217,174)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        0.84194,
+        228,
+        33.74146
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/图标库/icon/摄像头枪机.json",
+      "displayName": "摄像头枪机",
+      "rect": [
+        31.17676,
+        0.84194,
+        30.22342,
+        30.22342
+      ]
+    },
+    {
+      "type": "text",
+      "text": "海康  DS-2CD2356(D)WD-I",
+      "align": "center",
+      "color": "rgb(124,145,155)",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        0,
+        29.75854,
+        228,
+        30.41986
+      ]
+    }
+  ]
+}

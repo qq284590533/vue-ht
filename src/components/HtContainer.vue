@@ -1,6 +1,6 @@
 <template>
   <div class="ht-container">
-    <slot />
+    <slot></slot>
   </div>
 </template>
 
