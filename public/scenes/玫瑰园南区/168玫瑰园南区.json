@@ -1,0 +1,1770 @@
+{
+  "v": "7.0.8",
+  "p": {
+    "envmap": "assets/贴图/环境光/黄昏.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "bloom": {
+        "enable": true,
+        "strength": 0.2,
+        "threshold": 0.4,
+        "radius": 2
+      },
+      "dof": {
+        "aperture": 0.01,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2434,
+      "p": {
+        "displayName": "道路",
+        "anchorElevation": 0,
+        "width": 11734
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/道路.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.visible": false,
+        "3d.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2435,
+      "p": {
+        "anchorElevation": 0,
+        "width": 11734,
+        "height": 12950,
+        "tall": 10,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -5867,
+              "y": -6475,
+              "e": 0
+            },
+            {
+              "x": -2280.25493,
+              "y": -6464.09461,
+              "e": 0
+            },
+            {
+              "x": 5867,
+              "y": -6475,
+              "e": 0
+            },
+            {
+              "x": 5867,
+              "y": -6475,
+              "e": 0
+            },
+            {
+              "x": 5867,
+              "y": 6475,
+              "e": 0
+            },
+            {
+              "x": -5867,
+              "y": 6475,
+              "e": 0
+            },
+            {
+              "x": -5867,
+              "y": -6475,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.image": "assets/objs/168玫瑰园南区/草坪.png",
+        "shape3d.top.image": "assets/objs/168玫瑰园南区/草坪.png",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.top.uv.scale": [
+          10,
+          10
+        ],
+        "shape3d": "",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.reverse.color": null,
+        "shape3d.reverse.flip": true,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.transparent": true
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2436,
+      "p": {
+        "displayName": "地板",
+        "parent": {
+          "__i": 2435
+        },
+        "host": {
+          "__i": 2435
+        },
+        "position": {
+          "x": -2032.37801,
+          "y": -2057.78571
+        },
+        "anchorElevation": 0,
+        "width": 435.24398,
+        "height": 8723.57143,
+        "tall": 10,
+        "elevation": 26,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -2249.99998,
+              "y": -6419.57143,
+              "e": 0
+            },
+            {
+              "x": -1815.19083,
+              "y": -6410.85657,
+              "e": 0
+            },
+            {
+              "x": -1814.75602,
+              "y": 2304,
+              "e": 0
+            },
+            {
+              "x": -2249.56518,
+              "y": 2304,
+              "e": 0
+            },
+            {
+              "x": -2249.99998,
+              "y": -6410.85657,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(124,145,155)",
+        "wf.color": "rgb(26,189,156)",
+        "shape3d.top.uv.scale": [
+          1,
+          10
+        ],
+        "shape3d.top.image": "assets/objs/168玫瑰园南区/道路_1.jpg",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.reverse.color": null,
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true
+      },
+      "a": {
+        "custom.color": "rgb(230,230,76)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2437,
+      "p": {
+        "parent": {
+          "__i": 2435
+        },
+        "host": {
+          "__i": 2435
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 1968.96022,
+          "y": -2692.53354
+        },
+        "anchorElevation": 0,
+        "width": 339.05938,
+        "height": 7567.43214,
+        "tall": 10,
+        "elevation": 26,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1799.43053,
+              "y": -6476.24961,
+              "e": 0
+            },
+            {
+              "x": 2138.15118,
+              "y": -6468.68974,
+              "e": 0
+            },
+            {
+              "x": 2138.4899,
+              "y": 1091.18252,
+              "e": 0
+            },
+            {
+              "x": 1799.76925,
+              "y": 1091.18252,
+              "e": 0
+            },
+            {
+              "x": 1799.43053,
+              "y": -6468.68974,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(124,145,155)",
+        "wf.color": "rgb(26,189,156)",
+        "shape3d.top.uv.scale": [
+          1,
+          10
+        ],
+        "shape3d.top.image": "assets/objs/168玫瑰园南区/道路_1.jpg",
+        "shape3d.bottom.uv.scale": [
+          1,
+          1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.reverse.color": null,
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true
+      },
+      "a": {
+        "custom.color": "rgb(230,230,76)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2438,
+      "p": {
+        "parent": {
+          "__i": 2435
+        },
+        "host": {
+          "__i": 2435
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -1.51527,
+          "y": 2470
+        },
+        "anchorElevation": 0,
+        "width": 339.05938,
+        "height": 11722.55183,
+        "tall": 10,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -171.04496,
+              "y": -3391.27591,
+              "e": 0
+            },
+            {
+              "x": 167.67569,
+              "y": -3379.56507,
+              "e": 0
+            },
+            {
+              "x": 168.01441,
+              "y": 8331.27591,
+              "e": 0
+            },
+            {
+              "x": -170.70624,
+              "y": 8331.27591,
+              "e": 0
+            },
+            {
+              "x": -171.04496,
+              "y": -3379.56507,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(124,145,155)",
+        "wf.color": "rgb(26,189,156)",
+        "shape3d.top.uv.scale": [
+          1,
+          10
+        ],
+        "shape3d.top.image": "assets/objs/168玫瑰园南区/道路_1.jpg",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.reverse.color": null,
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true
+      },
+      "a": {
+        "custom.color": "rgb(230,230,76)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2439,
+      "p": {
+        "parent": {
+          "__i": 2435
+        },
+        "host": {
+          "__i": 2435
+        },
+        "position": {
+          "x": 2174.8923,
+          "y": -2062.64031
+        },
+        "anchorElevation": 0,
+        "width": 365.78461,
+        "height": 8720.71937,
+        "tall": 10,
+        "elevation": 26,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1992.00001,
+              "y": -6422.99999,
+              "e": 0
+            },
+            {
+              "x": 2357.41919,
+              "y": -6414.28798,
+              "e": 0
+            },
+            {
+              "x": 2357.78461,
+              "y": 2297.71937,
+              "e": 0
+            },
+            {
+              "x": 1992.36542,
+              "y": 2297.71937,
+              "e": 0
+            },
+            {
+              "x": 1992.00001,
+              "y": -6414.28798,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(124,145,155)",
+        "wf.color": "rgb(26,189,156)",
+        "shape3d.top.uv.scale": [
+          1,
+          10
+        ],
+        "shape3d.bottom.uv.scale": [
+          1,
+          1
+        ],
+        "shape3d.from.uv.scale": [
+          1,
+          1
+        ],
+        "shape3d.top.image": "assets/objs/168玫瑰园南区/道路_1.jpg",
+        "shape3d.uv.scale": [
+          10,
+          1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.reverse.color": null,
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true
+      },
+      "a": {
+        "custom.color": "rgb(230,230,76)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2440,
+      "p": {
+        "displayName": "操场",
+        "position": {
+          "x": 90.40451,
+          "y": -112.25256
+        },
+        "anchorElevation": 0,
+        "elevation": 12
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/操场.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2441,
+      "p": {
+        "parent": {
+          "__i": 2440
+        },
+        "tag": "主建筑",
+        "host": {
+          "__i": 2440
+        },
+        "position": {
+          "x": 110.72681,
+          "y": -96.10036
+        },
+        "anchorElevation": 0,
+        "elevation": -7
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/主体建筑.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2442,
+      "p": {
+        "parent": {
+          "__i": 2441
+        },
+        "host": {
+          "__i": 2441
+        },
+        "position": {
+          "x": 1761.77898,
+          "y": -2000
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 253,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1762.21011,
+              "y": -2062.5
+            },
+            {
+              "x": 1761.34785,
+              "y": -1937.5
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2443,
+      "p": {
+        "displayName": "墙面",
+        "parent": {
+          "__i": 2442
+        },
+        "host": {
+          "__i": 2442
+        },
+        "position": {
+          "x": 1761.77898,
+          "y": -1153.5
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 253,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1762.21011,
+              "y": -1216
+            },
+            {
+              "x": 1761.34785,
+              "y": -1091
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2444,
+      "p": {
+        "displayName": "墙面",
+        "parent": {
+          "__i": 2442
+        },
+        "host": {
+          "__i": 2442
+        },
+        "position": {
+          "x": 1761.77898,
+          "y": 546.5
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 253,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1762.21011,
+              "y": 484
+            },
+            {
+              "x": 1761.34785,
+              "y": 609
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2445,
+      "p": {
+        "parent": {
+          "__i": 2442
+        },
+        "host": {
+          "__i": 2442
+        },
+        "position": {
+          "x": 1761.77898,
+          "y": -303.5
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 253,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1762.21011,
+              "y": -366
+            },
+            {
+              "x": 1761.34785,
+              "y": -241
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2446,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": -3463.73638,
+          "y": 4907.38754
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2447,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -921.77931,
+          "y": 4680.12141
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2448,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1463.61143,
+          "y": 4667.03627
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2449,
+      "p": {
+        "displayName": "建筑1",
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -3.14159,
+        "position": {
+          "x": 3919.72477,
+          "y": 4049.96463
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2450,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 3048.52102,
+          "y": 5729.89709
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2451,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -4047.67977,
+          "y": 1719.43742
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2452,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 4101.60913,
+          "y": 746.95517
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2453,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 3197.24023,
+          "y": -1743.54404
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2454,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 4047.24023,
+          "y": -1743.54404
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2455,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 4897.24023,
+          "y": -1743.54404
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2456,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 3202.75977,
+          "y": -1102.75983
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2457,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 4052.75977,
+          "y": -1102.75983
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2458,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 4902.75977,
+          "y": -1102.75983
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2459,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -4279.14196,
+          "y": -53.72102
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2460,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -4909.61687,
+          "y": 1719.43742
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2461,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -2949.45095,
+          "y": 1788.37864
+        },
+        "anchorElevation": 0,
+        "width": 800,
+        "height": 800,
+        "tall": 200
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2462,
+      "p": {
+        "parent": {
+          "__i": 2461
+        },
+        "host": {
+          "__i": 2461
+        },
+        "position": {
+          "x": -2949.45095,
+          "y": 1788.37864
+        },
+        "anchorElevation": 0,
+        "width": 800,
+        "height": 300,
+        "tall": 1000
+      },
+      "s": {
+        "all.color": "#DDDDDD"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2463,
+      "p": {
+        "parent": {
+          "__i": 2461
+        },
+        "host": {
+          "__i": 2461
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -2948.90189,
+          "y": 1788.37864
+        },
+        "anchorElevation": 0,
+        "width": 800,
+        "height": 300,
+        "tall": 1000
+      },
+      "s": {
+        "all.color": "#DDDDDD"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2464,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -4007.25941,
+          "y": -2610.45366
+        },
+        "anchorElevation": 0,
+        "scaleTall": 14.65317,
+        "width": 517.81196,
+        "height": 486.42942,
+        "tall": 50
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2465,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -3001.8611,
+          "y": -2330.97635
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.22273,
+          "y": 1
+        }
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2466,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -4845.17111,
+          "y": -2277.5158
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.23082,
+          "y": 1
+        }
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2467,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -4263.43851,
+          "y": -4515.4956
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2468,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -2695.89115,
+          "y": -3721.10555
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2469,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -2695.89115,
+          "y": -4417.86363
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2470,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -2695.89115,
+          "y": -5114.62172
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2471,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -2695.89115,
+          "y": -5811.37981
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2472,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -933.0734,
+          "y": -5215.57633
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2473,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 189.498,
+          "y": -5413.85859
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2474,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 1436.72974,
+          "y": -5342.87264
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2475,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -988.16747,
+          "y": -3984.03851
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2476,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 199.35536,
+          "y": -4466.19451
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2477,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 1444.41059,
+          "y": -4047.76809
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2478,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": -439.08134,
+          "y": -3396.24454
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2479,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 950.87836,
+          "y": -3419.1248
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑2.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2480,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 5381.60206,
+          "y": -4487.0575
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2481,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 5381.60206,
+          "y": -5200
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2482,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "position": {
+          "x": 5381.60206,
+          "y": -5912.9425
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑3.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2483,
+      "p": {
+        "parent": {
+          "__i": 2446
+        },
+        "host": {
+          "__i": 2446
+        },
+        "rotation": -3.14159,
+        "position": {
+          "x": 3690.55435,
+          "y": -4377.82406
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/建筑1.json",
+        "shape3d.blend": null,
+        "shape3d.opacity": 1,
+        "shape3d.color": null,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -248.9123,
+      6341.08675,
+      10962.07087
+    ],
+    "center": [
+      -248.91229,
+      -1182.36071,
+      219.64869
+    ],
+    "near": 1,
+    "far": 54000001,
+    "gridVisible": true,
+    "gridSize": 0,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

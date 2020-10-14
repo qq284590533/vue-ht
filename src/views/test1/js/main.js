@@ -2,6 +2,10 @@ import Screen from './utils/screen'
 
 class MainEntry {
   constructor(el, vm) {
+    // ht.Style['wf.geometry'] = true
+    // ht.Style['wf.loadQuadWireframe'] = false
+    // // 控制是否显示四边面
+    // ht.Style['wf.combineTriangle'] = true
     this.vm = vm
     this.loadScreen(el)
   }

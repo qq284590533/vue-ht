@@ -1,0 +1,9 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/168玫瑰园/floor.obj",
+  "mtl": "assets/objs/168玫瑰园/floor.mtl",
+  "image": "",
+  "reverseFlipMtls": "*",
+  "ignoreNormal": true,
+  "prefix": "assets/objs/168玫瑰园/"
+}

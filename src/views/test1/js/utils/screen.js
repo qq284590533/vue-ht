@@ -21,6 +21,7 @@ class Screen {
     this.g3dResizeListener = e => {
       g3d.iv()
     }
+
     window.addEventListener('resize', this.g3dResizeListener)
 
     typeof callBack === 'function' && callBack(g3d, dm3d)

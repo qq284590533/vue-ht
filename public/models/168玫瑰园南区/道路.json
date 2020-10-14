@@ -1,0 +1,9 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/168玫瑰园南区/道路.obj",
+  "mtl": "assets/objs/168玫瑰园南区/道路.mtl",
+  "image": "",
+  "reverseFlipMtls": "*",
+  "ignoreNormal": true,
+  "prefix": "assets/objs/168玫瑰园南区/"
+}

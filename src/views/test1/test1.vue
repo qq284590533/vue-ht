@@ -16,7 +16,6 @@
 import createScript from '@/utils/createScript'
 import HtContainer from '@/components/HtContainer'
 import MainEntry from './js/main'
-import Vue from 'vue'
 export default {
   components: {
     HtContainer
@@ -29,13 +28,8 @@ export default {
     }
   },
   created() {
-    createScript([
-      'libs/plugin/ht-obj.js',
-      '/libs/plugin/ht-vector.js',
-      'libs/plugin/ht-htmlnode.js'
-    ])
+    createScript(['libs/plugin/ht-obj.js', '/libs/plugin/ht-vector.js'])
       .then(res => {
-        this.$set(this, 'ht', Vue.observable(ht))
         this.htObject = new MainEntry(this.$refs['htCont'], this)
       })
       .catch(e => {
@@ -66,10 +60,12 @@ export default {
   top: 0;
   right: 0;
   bottom: 0;
+  pointer-events: auto;
 }
 .view-2d {
   position: absolute;
   z-index: 1;
+  pointer-events: none;
   .archives-list {
     padding: 10px;
     color: #ffffff;
@@ -79,6 +75,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    pointer-events: none;
+
     flex-wrap: wrap;
     li {
       margin: 0 5px;
@@ -86,6 +84,8 @@ export default {
       text-align: center;
       cursor: pointer;
       font-size: 14px;
+      pointer-events: auto;
+      user-select: none;
     }
   }
 }

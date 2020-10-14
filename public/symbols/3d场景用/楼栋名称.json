@@ -1,0 +1,38 @@
+{
+  "modified": "Mon Oct 12 2020 17:06:41 GMT+0800 (中国标准时间)",
+  "width": 237,
+  "height": 88,
+  "attachStyle": "strict",
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/objs/168玫瑰园/bg-build.png",
+      "displayName": "bg-build",
+      "anchorX": 0.1601,
+      "anchorY": 0.96924,
+      "rect": [
+        0,
+        0,
+        237,
+        88
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nreturn data._displayName\n}",
+        "value": "文本"
+      },
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "32px arial, sans-serif",
+      "displayName": "楼栋标签",
+      "rect": [
+        87.63897,
+        9.55919,
+        135.42226,
+        51.93576
+      ]
+    }
+  ]
+}

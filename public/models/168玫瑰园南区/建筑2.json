@@ -1,0 +1,9 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/168玫瑰园南区/建筑2.obj",
+  "mtl": "assets/objs/168玫瑰园南区/建筑1.mtl",
+  "image": "",
+  "reverseFlipMtls": "*",
+  "ignoreNormal": true,
+  "prefix": "assets/objs/168玫瑰园南区/"
+}

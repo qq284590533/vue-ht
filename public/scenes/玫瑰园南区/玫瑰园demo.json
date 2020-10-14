@@ -1,0 +1,711 @@
+{
+  "v": "7.0.8",
+  "p": {
+    "background": "rgb(61,61,61)",
+    "envmap": "assets/贴图/环境光/天空.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "bloom": {
+        "enable": true,
+        "strength": 0.2,
+        "threshold": 0.18
+      },
+      "dof": {
+        "enable": true,
+        "aperture": 0.01,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "a": {
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {// // gv.setFar(100000)\r\n// // ht.Style['wf.geometry'] = true\r\n// // 控制是否载入 obj 的四边面，否的话通过算法合并三角面\r\n// // ht.Style['wf.loadQuadWireframe'] = false\r\n// // 控制是否显示四边面\r\n// // ht.Style['wf.combineTriangle'] = true\r\n\r\n// var zjz = dm.getDataByTag('主建筑')\r\n// zjz.s('wf.color', 'rgb(100,100,100,0.9)');\r\n// zjz.s('wf.geometry', true);\r\n\r\n\r\n// var r = 18490\r\n// ht.Default.startAnim({\r\n//     duration: 6000,\r\n//     easing: function (t) {\r\n//         return t\r\n//     },\r\n//     action: function (v, t) {\r\n//         // 圆的参数方程 半径和角度都在变\r\n//         const r1 = (0.5 - t) * r\r\n//         const angle = (t * t - 0.5) * Math.PI\r\n//         const x = r1 * Math.cos(angle)\r\n//         const z = r1 * Math.sin(angle)\r\n//         const y = 4260 + (968 - 126) * t * t * t\r\n//         gv.moveCamera([x, y, z])\r\n//     },\r\n//     finishFunc: function () { }\r\n// })}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2929,
+      "p": {
+        "width": 50000,
+        "height": 50000,
+        "tall": 50000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.image": "assets/贴图/天空球/天空球3.jpg",
+        "shape3d.reverse.flip": true,
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2930,
+      "p": {
+        "displayName": "主建筑",
+        "tag": "主建筑",
+        "anchorElevation": 0,
+        "elevation": 10
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/主体建筑.json",
+        "wf.visible": "selected",
+        "shape3d.color": null,
+        "shape3d.blend": "rgb(207,207,207)",
+        "wf.short": true,
+        "envmap": 0.05,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "wf.color": "rgb(100,100,100,0.9)",
+        "wf.geometry": true,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2931,
+      "p": {
+        "parent": {
+          "__i": 2930
+        },
+        "host": {
+          "__i": 2930
+        },
+        "position": {
+          "x": -19.75752,
+          "y": -12.35774
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园南区/操场.json",
+        "shape3d.blend": "rgb(166,166,166)",
+        "shape3d.opacity": 0.3,
+        "shape3d.reverse.cull": true,
+        "shape3d.color": null,
+        "shape3d.transparent": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2932,
+      "p": {
+        "displayName": "毓秀楼",
+        "parent": {
+          "__i": 2930
+        },
+        "tag": "毓秀楼",
+        "image": "symbols/3d场景用/楼栋名称.json",
+        "host": {
+          "__i": 2930
+        },
+        "rotation": -0.28336,
+        "position": {
+          "x": -108.71381,
+          "y": 1605.38142
+        },
+        "anchor": {
+          "x": 0.14,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1
+        },
+        "scaleTall": 1.5,
+        "elevation": 465.4374
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼栋名称.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.vector.dynamic": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2933,
+      "p": {
+        "displayName": "正心楼",
+        "parent": {
+          "__i": 2932
+        },
+        "tag": "正心楼",
+        "image": "symbols/3d场景用/楼栋名称.json",
+        "host": {
+          "__i": 2932
+        },
+        "rotation": -0.28336,
+        "position": {
+          "x": 231.20303,
+          "y": 656.52007
+        },
+        "anchor": {
+          "x": 0.14,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1
+        },
+        "scaleTall": 1.5,
+        "elevation": 465.4374
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼栋名称.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.vector.dynamic": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2934,
+      "p": {
+        "displayName": "诚意楼",
+        "parent": {
+          "__i": 2932
+        },
+        "tag": "诚意楼",
+        "image": "symbols/3d场景用/楼栋名称.json",
+        "host": {
+          "__i": 2932
+        },
+        "rotation": -0.28336,
+        "position": {
+          "x": 198.88802,
+          "y": -204.52815
+        },
+        "anchor": {
+          "x": 0.14,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1
+        },
+        "scaleTall": 1.5,
+        "elevation": 465.4374
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼栋名称.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.vector.dynamic": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2935,
+      "p": {
+        "displayName": "致知楼",
+        "parent": {
+          "__i": 2932
+        },
+        "tag": "致知楼",
+        "image": "symbols/3d场景用/楼栋名称.json",
+        "host": {
+          "__i": 2932
+        },
+        "rotation": -0.28336,
+        "position": {
+          "x": 214.11464,
+          "y": -1037.11869
+        },
+        "anchor": {
+          "x": 0.14,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1
+        },
+        "scaleTall": 1.5,
+        "elevation": 465.4374
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼栋名称.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.vector.dynamic": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2936,
+      "p": {
+        "parent": {
+          "__i": 2930
+        },
+        "host": {
+          "__i": 2930
+        },
+        "position": {
+          "x": 1648,
+          "y": -1908
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 268,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1648.43113,
+              "y": -1970.5
+            },
+            {
+              "x": 1647.56887,
+              "y": -1845.5
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2937,
+      "p": {
+        "displayName": "墙面",
+        "parent": {
+          "__i": 2936
+        },
+        "host": {
+          "__i": 2936
+        },
+        "position": {
+          "x": 1646,
+          "y": -1058
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 268,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1646.43113,
+              "y": -1120.5
+            },
+            {
+              "x": 1645.56887,
+              "y": -995.5
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2938,
+      "p": {
+        "displayName": "墙面",
+        "parent": {
+          "__i": 2936
+        },
+        "host": {
+          "__i": 2936
+        },
+        "position": {
+          "x": 1646,
+          "y": 644
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 268,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1646.43113,
+              "y": 581.5
+            },
+            {
+              "x": 1645.56887,
+              "y": 706.5
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2939,
+      "p": {
+        "parent": {
+          "__i": 2936
+        },
+        "host": {
+          "__i": 2936
+        },
+        "position": {
+          "x": 1646,
+          "y": -210
+        },
+        "scaleTall": 1.41127,
+        "width": 1,
+        "height": 125,
+        "tall": 222,
+        "elevation": 268,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1646.43113,
+              "y": -272.5
+            },
+            {
+              "x": 1645.56887,
+              "y": -147.5
+            }
+          ]
+        },
+        "thickness": "1"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "back.image": "assets/objs/玫瑰园南区/外墙1_1.png",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2940,
+      "p": {
+        "parent": {
+          "__i": 2930
+        },
+        "host": {
+          "__i": 2930
+        },
+        "anchorElevation": 0,
+        "width": 21533.6443,
+        "height": 20801.64253,
+        "tall": 0,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -10766.82215,
+              "y": -4122.45934,
+              "e": 0
+            },
+            {
+              "x": -4253.42776,
+              "y": -10400.82126,
+              "e": 0
+            },
+            {
+              "x": 4157.48578,
+              "y": -10400.82126,
+              "e": 0
+            },
+            {
+              "x": 10766.82215,
+              "y": -4122.45934,
+              "e": 0
+            },
+            {
+              "x": 10766.82215,
+              "y": 4608.76843,
+              "e": 0
+            },
+            {
+              "x": 4157.48578,
+              "y": 10400.82127,
+              "e": 0
+            },
+            {
+              "x": -4253.42776,
+              "y": 10400.82127,
+              "e": 0
+            },
+            {
+              "x": -10766.82215,
+              "y": 4608.76843,
+              "e": 0
+            },
+            {
+              "x": -10766.82215,
+              "y": -4122.45934,
+              "e": 0
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": null,
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": "rgb(0,0,0)",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.image": "symbols/3d场景用/格子地面.png",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.5,
+        "shape3d.top.uv.scale": [
+          100,
+          100
+        ],
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 2941,
+      "p": {
+        "displayName": "道路",
+        "tag": "道路",
+        "position": {
+          "x": 2810.85458,
+          "y": -2770.84901
+        },
+        "scaleTall": 0.1,
+        "width": 13261.42657,
+        "height": 4941.69802,
+        "tall": 280,
+        "elevation": 614.1784,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -3650,
+              "y": -300
+            },
+            {
+              "x": -3650,
+              "y": -300
+            },
+            {
+              "x": -3819.8587,
+              "y": -3850.36859
+            },
+            {
+              "x": -3509.14724,
+              "y": -4256.672
+            },
+            {
+              "x": -3187.53745,
+              "y": -4677.22667
+            },
+            {
+              "x": -2404.62293,
+              "y": -5104.13978
+            },
+            {
+              "x": -550,
+              "y": -5100
+            },
+            {
+              "x": 3096.39862,
+              "y": -5091.86072
+            },
+            {
+              "x": 9441.56787,
+              "y": -5209.14089
+            },
+            {
+              "x": 9441.56787,
+              "y": -5209.14089
+            },
+            {
+              "x": 9441.56787,
+              "y": -5241.69802
+            }
+          ]
+        },
+        "thickness": "1000"
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "all.visible": false,
+        "top.visible": true,
+        "top.image": "assets/贴图/飞光渐变.png",
+        "right.visible": false,
+        "bottom.visible": false,
+        "top.uv.scale": [
+          1,
+          1
+        ],
+        "back.visible": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -4518.62837,
+      10835.36483,
+      -1424.29089
+    ],
+    "center": [
+      888.15798,
+      -4726.32235,
+      360.93698
+    ],
+    "near": 1,
+    "far": 54000001,
+    "background": "rgb(61,61,61)",
+    "gridVisible": true,
+    "gridSize": 0,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

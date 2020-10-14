@@ -3,6 +3,10 @@ import Screen from '../../util/screen'
 import '../config'
 class MainEntry {
   constructor(el) {
+    // ht.Style['wf.geometry'] = true
+    // ht.Style['wf.loadQuadWireframe'] = false
+    // // 控制是否显示四边面
+    // ht.Style['wf.combineTriangle'] = true
     this.loadScreen(el)
     window.test = this
   }

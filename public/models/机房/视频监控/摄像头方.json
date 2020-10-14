@@ -1,7 +1,7 @@
 {
   "modelType": "obj",
   "obj": "assets/objs/机房/摄像头方.obj",
-  "mtl": "assets/objs/机房/摄像头方.mtl",
+  "mtl": "",
   "image": "symbols/机房/摄像头方.json",
   "alarms": [
     {

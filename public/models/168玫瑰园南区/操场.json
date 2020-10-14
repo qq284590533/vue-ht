@@ -1,0 +1,9 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/玫瑰园南区/操场.obj",
+  "mtl": "assets/objs/玫瑰园南区/操场.mtl",
+  "reverseFlipMtls": "*",
+  "ignoreNormal": true,
+  "image": "",
+  "prefix": "assets/objs/玫瑰园南区/"
+}
