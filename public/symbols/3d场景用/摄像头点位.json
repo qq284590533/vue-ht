@@ -1,0 +1,19 @@
+{
+  "modified": "Fri Oct 16 2020 15:44:19 GMT+0800 (中国标准时间)",
+  "width": 72,
+  "height": 88,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/objs/168玫瑰园/摄像头.png",
+      "pixelPerfect": true,
+      "displayName": "摄像头",
+      "rect": [
+        0,
+        0,
+        72,
+        88
+      ]
+    }
+  ]
+}

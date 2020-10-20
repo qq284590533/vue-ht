@@ -1,0 +1,2808 @@
+{
+  "modified": "Tue Oct 20 2020 11:18:46 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "1.UTILIZATION.BAR.PERCENT",
+      "valueType": "Percentage",
+      "name": "PBValue"
+    },
+    {
+      "attr": "1.AVAILABLE",
+      "valueType": "String"
+    },
+    {
+      "attr": "1.UTILIZATION",
+      "valueType": "String"
+    },
+    {
+      "attr": "1.CAPACITY",
+      "valueType": "String"
+    },
+    {
+      "attr": "2.UTILIZATION.BAR.PERCENT",
+      "valueType": "Percentage",
+      "name": "PBValue"
+    },
+    {
+      "attr": "2.AVAILABLE",
+      "valueType": "String"
+    },
+    {
+      "attr": "2.UTILIZATION",
+      "valueType": "String"
+    },
+    {
+      "attr": "2.CAPACITY",
+      "valueType": "String"
+    },
+    {
+      "attr": "CPU.NUMBER",
+      "valueType": "String"
+    },
+    {
+      "attr": "CPU.UTILIZATION",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.CAPACITY",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.AVAILABLE",
+      "valueType": "String"
+    },
+    {
+      "attr": "MEMORY.NOT.UTILIZATION",
+      "valueType": "Number"
+    },
+    {
+      "attr": "MEMORY.UTILIZATION",
+      "valueType": "Number"
+    },
+    {
+      "attr": "MEMORY.UTILIZATION.VALUE",
+      "valueType": "String"
+    },
+    {
+      "attr": "serverName",
+      "valueType": "String"
+    },
+    {
+      "attr": "ht.columns",
+      "valueType": "Object",
+      "name": "TableColumnDef"
+    },
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource"
+    },
+    {
+      "attr": "ht.headbackground",
+      "valueType": "Color",
+      "name": "TableHeadBackground"
+    },
+    {
+      "attr": "ht.bodyBackground",
+      "valueType": "Color",
+      "name": "TableBodyBackground"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableBorderWidth"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "TableBorderColor"
+    },
+    {
+      "attr": "ht.columnLineColor",
+      "valueType": "Color",
+      "name": "TableColumnLineColor"
+    },
+    {
+      "attr": "ht.columnLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableColumnLineWidth"
+    },
+    {
+      "attr": "ht.rowLineColor",
+      "valueType": "Color",
+      "name": "TableRowLineColor"
+    },
+    {
+      "attr": "ht.rowLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableRowLineWidth"
+    },
+    {
+      "attr": "ht.headHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadHeight"
+    },
+    {
+      "attr": "ht.rowHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyHeight"
+    },
+    {
+      "attr": "ht.headTextColor",
+      "valueType": "Color",
+      "name": "TableHeadColor"
+    },
+    {
+      "attr": "ht.bodyTextColor",
+      "valueType": "Color",
+      "name": "TableBodyColor"
+    },
+    {
+      "attr": "ht.cellPadding",
+      "valueType": "PositiveNumber",
+      "name": "TableCellPadding"
+    },
+    {
+      "attr": "ht.headFont",
+      "valueType": "Font",
+      "name": "TableHeadFontFamily"
+    },
+    {
+      "attr": "ht.bodyFont",
+      "valueType": "Font",
+      "name": "TableBodyFontFamily"
+    },
+    {
+      "attr": "ht.showHead",
+      "valueType": "Boolean",
+      "name": "TableShowHead"
+    },
+    {
+      "attr": "ht.translateX",
+      "valueType": "Number",
+      "name": "TableTranslateX"
+    },
+    {
+      "attr": "ht.translateY",
+      "valueType": "Number",
+      "name": "TableTranslateY"
+    },
+    {
+      "attr": "ht.hoverBackground",
+      "valueType": "Color",
+      "name": "TableHoverBackground"
+    },
+    {
+      "attr": "ht.scrollable",
+      "valueType": "Boolean",
+      "name": "UIScrollable"
+    },
+    {
+      "attr": "ht.autoHideScrollBar",
+      "valueType": "Boolean",
+      "name": "UIAutoHideScrollBar"
+    },
+    {
+      "attr": "ht.scrollBarColor",
+      "valueType": "Color",
+      "name": "TableScrollBarColor"
+    },
+    {
+      "attr": "ht.scrollBarWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableScrollBarWidth"
+    }
+  ],
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\n//移除旋转面板定时任务\r\n// var timeId = window.localStorage.getItem('timeKey_xuanzhuan');\r\n// window.clearInterval(timeId);\n}",
+  "onHover": "__ht__function(event, data, view, point, width, height) {\n// ?\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\n//获取旋转面板\r\n// var sm = view.dm().getDataByTag('xuanzhaun');\r\n\r\n// var i = sm.getRotationY();\r\n// timeId = window.setInterval(function(){\r\n//     i += 0.1;\r\n//     sm.setRotationY(i)\r\n// },300);\r\n// window.localStorage.setItem('timeKey_xuanzhuan',timeId);\r\n// console.log(\"开门定时timeId:\"+timeId)\r\n//显示3D对象\r\n// sm.s('3d.visible',true);\n}",
+  "width": 4000,
+  "height": 660,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(7,12,38,0.80)",
+      "borderColor": "#979797",
+      "points": [
+        3429.32469,
+        53.46153,
+        3460.74338,
+        53.46153,
+        3826.15014,
+        53.46153,
+        3893.16371,
+        122.52097,
+        3893.16371,
+        644.93319,
+        3451.95915,
+        644.93319,
+        3429.32469,
+        621.11944,
+        3429.32469,
+        566.48597,
+        3437.73758,
+        556.55281,
+        3437.73758,
+        309.07062,
+        3429.32469,
+        302.44665
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        3164.13288,
+        342.98002,
+        3164.13274,
+        310.85323,
+        3420.4738,
+        310.8661,
+        3427.22612,
+        319.00968,
+        3660.64711,
+        319.0089,
+        3668.7915,
+        310.86532,
+        3720.68793,
+        310.85068,
+        3755.49431,
+        342.97773,
+        3755.49446,
+        379.40125
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "rotation": -1.5708,
+      "points": [
+        3441.06825,
+        191.43347,
+        3441.06719,
+        496.12561,
+        3980.77628,
+        496.1277,
+        4031.32094,
+        449.53977,
+        4031.32145,
+        307.15409
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,12,38,0.80)",
+      "borderColor": "#979797",
+      "points": [
+        2032.51079,
+        53.46153,
+        2064.9453,
+        53.46153,
+        2442.16628,
+        53.46153,
+        2511.34652,
+        122.52097,
+        2511.34652,
+        644.93319,
+        2055.87706,
+        644.93319,
+        2032.51079,
+        621.11944,
+        2032.51079,
+        566.48597,
+        2041.19568,
+        556.55281,
+        2041.19568,
+        309.07062,
+        2032.51079,
+        302.44665
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        1768.30474,
+        342.91064,
+        1768.3046,
+        309.74514,
+        2024.64566,
+        309.75842,
+        2031.39798,
+        318.16529,
+        2264.81897,
+        318.16449,
+        2272.96336,
+        309.75762,
+        2324.85979,
+        309.7425,
+        2359.66617,
+        342.90827,
+        2359.66632,
+        380.50943
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "rotation": -1.5708,
+      "points": [
+        2054.17597,
+        186.50783,
+        2054.17491,
+        501.05119,
+        2593.884,
+        501.05334,
+        2644.42866,
+        452.95915,
+        2644.42917,
+        305.96989
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,12,38,0.80)",
+      "borderColor": "#979797",
+      "points": [
+        697.12108,
+        46.29792,
+        730.72401,
+        46.29792,
+        1304.9586,
+        46.29792,
+        1376.63097,
+        115.35736,
+        1376.63097,
+        637.76959,
+        721.32909,
+        637.76959,
+        697.12108,
+        613.95583,
+        697.12108,
+        559.32236,
+        706.11884,
+        549.3892,
+        706.11884,
+        301.90701,
+        697.12108,
+        295.28304
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        434.04886,
+        335.66724,
+        434.04872,
+        301.30698,
+        690.38978,
+        301.32074,
+        697.1421,
+        310.03046,
+        930.5631,
+        310.02963,
+        938.70749,
+        301.31991,
+        990.60391,
+        301.30424,
+        1025.41029,
+        335.66477,
+        1025.41044,
+        374.62047
+      ]
+    },
+    {
+      "type": "text",
+      "text": "软件状态",
+      "align": "center",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        752.14984,
+        62.98654,
+        110.05751,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU / 内存",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3532.3825,
+        37.54335,
+        121.56411,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": "容量",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2133.18389,
+        37.54335,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        2065.1684,
+        356.86523,
+        413.52053,
+        2.67638
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.AVAILABLE",
+        "value": "235.2"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        192.3895,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2458.91217,
+        191.74992,
+        26.02437,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "可用容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        195.68264,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "使用比率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.65807,
+        249.82952,
+        98.15658,
+        13.26945
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.UTILIZATION",
+        "value": "67.25%"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        247.81086,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "349.7"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        136.96813,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2458.91217,
+        135.8254,
+        26.02437,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "总容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        142.14302,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1分区",
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        100.57932,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@2.AVAILABLE",
+        "value": "212.2"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        484.89657,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2458.91217,
+        484.257,
+        26.02437,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "可用容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        488.18972,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "使用比率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.65807,
+        542.3366,
+        98.15658,
+        13.26945
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@2.UTILIZATION",
+        "value": "60.68%"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        540.31794,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@2.CAPACITY",
+        "value": "349.7"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2257.30111,
+        429.47521,
+        78.84263,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2458.91217,
+        428.33248,
+        26.02437,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "总容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        434.6501,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2分区",
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        2121.92825,
+        393.0864,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@CPU.NUMBER",
+        "value": "8"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3709.35135,
+        115.34284,
+        55.18242,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU个数",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        119.26137,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CPU使用率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        177.29483,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@CPU.UTILIZATION",
+        "value": "1%"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3709.35135,
+        175.29328,
+        55.18242,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.CAPACITY",
+        "value": "100"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3712.87159,
+        279.50061,
+        58.70266,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        283.41914,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存可用容量",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        341.4592,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.AVAILABLE",
+        "value": "70"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3712.87159,
+        337.10737,
+        58.70266,
+        18.64151
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(51,153,255,0.59)",
+      "borderColor": "rgb(14,23,69)",
+      "arcFrom": 0,
+      "arcTo": {
+        "func": "attr@MEMORY.NOT.UTILIZATION",
+        "value": 4.39823
+      },
+      "rect": [
+        3598.75185,
+        416.65233,
+        195.91775,
+        204.02956
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgb(49,214,159)",
+      "borderWidth": 4,
+      "borderColor": "rgb(14,23,69)",
+      "arcFrom": {
+        "func": "attr@MEMORY.UTILIZATION",
+        "value": -1.88496
+      },
+      "arcTo": 0,
+      "rect": [
+        3593.16456,
+        410.8337,
+        207.09233,
+        215.66682
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@MEMORY.UTILIZATION.VALUE",
+        "value": "30%"
+      },
+      "align": "right",
+      "color": "rgb(93,217,174)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        3807.79202,
+        403.90134,
+        27.55764,
+        14.53494
+      ]
+    },
+    {
+      "type": "text",
+      "text": "内存占用率",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3510.76017,
+        399.645,
+        95.60585,
+        12.05494
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        3460.95948,
+        234.63931,
+        400.56943,
+        2.67638
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "rotation": -1.5708,
+      "points": [
+        912.01353,
+        173.67869,
+        912.01247,
+        499.55307,
+        1451.72156,
+        499.5553,
+        1502.26622,
+        449.72858,
+        1502.26671,
+        315.18551
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#277cf3",
+      "borderCap": "square",
+      "points": [
+        2210.84773,
+        300.39628,
+        2210.84773,
+        306.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "fillRule": "evenodd",
+      "points": [
+        2445.89999,
+        292.39628,
+        2445.89999,
+        313.39628,
+        2122.89999,
+        313.39628,
+        2117.89999,
+        318.39628,
+        2092.89999,
+        318.39628,
+        2066.89999,
+        292.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(3,26,89)",
+      "borderJoin": "bevel",
+      "points": [
+        2081.60459,
+        316.10089,
+        2086.89999,
+        321.39628,
+        2119.89999,
+        321.39628,
+        2125.89999,
+        315.39628,
+        2419.89999,
+        315.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2127.89999,
+        317.39628,
+        2139.89999,
+        317.39628,
+        2135.89998,
+        321.39628,
+        2123.89999,
+        321.39628,
+        2127.89999,
+        317.39628,
+        2127.89999,
+        317.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2143.89999,
+        317.39628,
+        2155.9,
+        317.39628,
+        2151.89999,
+        321.39628,
+        2139.89999,
+        321.39628,
+        2143.89999,
+        317.39628,
+        2143.89999,
+        317.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2159.89999,
+        317.39628,
+        2171.89999,
+        317.39628,
+        2167.89999,
+        321.39628,
+        2155.9,
+        321.39628,
+        2159.89999,
+        317.39628,
+        2159.89999,
+        317.39628
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2175.9,
+        317.39628,
+        2187.89999,
+        317.39628,
+        2183.89999,
+        321.39628,
+        2171.89999,
+        321.39628,
+        2175.9,
+        317.39628,
+        2175.9,
+        317.39628
+      ]
+    },
+    {
+      "type": "components/progressBar/progressBar.json",
+      "rect": [
+        2085.42471,
+        293.47379,
+        360.47528,
+        17.74041
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "fillRule": "evenodd",
+      "displayName": "不规则图形",
+      "points": [
+        2086.09999,
+        312.59047,
+        2084.29999,
+        311.01628,
+        2085.42471,
+        292.62096,
+        2103.82479,
+        312.59047
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2082.98563,
+        291.41989,
+        2093.4242,
+        291.41989,
+        2084.4242,
+        303.43067
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2099.47477,
+        289.87201,
+        2108.47477,
+        289.87201,
+        2087.87675,
+        315.11474,
+        2087.87675,
+        304.3168,
+        2099.47477,
+        289.87201
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2114.72367,
+        290.15286,
+        2123.72367,
+        290.15286,
+        2103.72367,
+        314.83389,
+        2094.72367,
+        314.83389,
+        2114.72367,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2129.13237,
+        290.15286,
+        2138.13237,
+        290.15286,
+        2118.13237,
+        314.83389,
+        2109.13237,
+        314.83389,
+        2129.13237,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2143.54107,
+        290.15286,
+        2152.54107,
+        290.15286,
+        2132.54107,
+        314.83389,
+        2123.54107,
+        314.83389,
+        2143.54107,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2157.94978,
+        290.15286,
+        2166.94978,
+        290.15286,
+        2146.94978,
+        314.83389,
+        2137.94978,
+        314.83389,
+        2157.94978,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2172.35848,
+        290.15286,
+        2181.35848,
+        290.15286,
+        2161.35848,
+        314.83389,
+        2152.35848,
+        314.83389,
+        2172.35848,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2258.8107,
+        290.15286,
+        2267.8107,
+        290.15286,
+        2247.8107,
+        314.83389,
+        2238.8107,
+        314.83389,
+        2258.8107,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2302.03681,
+        290.15286,
+        2311.03681,
+        290.15286,
+        2291.03681,
+        314.83389,
+        2282.03681,
+        314.83389,
+        2302.03681,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2330.85421,
+        290.15286,
+        2339.85421,
+        290.15286,
+        2319.85421,
+        314.83389,
+        2310.85421,
+        314.83389,
+        2330.85421,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2229.99329,
+        290.15286,
+        2238.99329,
+        290.15286,
+        2218.99329,
+        314.83389,
+        2209.99329,
+        314.83389,
+        2229.99329,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2287.6281,
+        290.15286,
+        2296.6281,
+        290.15286,
+        2276.6281,
+        314.83389,
+        2267.6281,
+        314.83389,
+        2287.6281,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2316.44551,
+        290.15286,
+        2325.44551,
+        290.15286,
+        2305.44551,
+        314.83389,
+        2296.44551,
+        314.83389,
+        2316.44551,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2345.26292,
+        290.15286,
+        2354.26292,
+        290.15286,
+        2334.26292,
+        314.83389,
+        2325.26292,
+        314.83389,
+        2345.26292,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2186.76718,
+        290.15286,
+        2195.76718,
+        290.15286,
+        2175.76718,
+        314.83389,
+        2166.76718,
+        314.83389,
+        2186.76718,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2201.17588,
+        290.15286,
+        2210.17588,
+        290.15286,
+        2190.17588,
+        314.83389,
+        2181.17588,
+        314.83389,
+        2201.17588,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2374.08032,
+        290.15286,
+        2383.08032,
+        290.15286,
+        2363.08032,
+        314.83389,
+        2354.08032,
+        314.83389,
+        2374.08032,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2402.89773,
+        290.15286,
+        2411.89773,
+        290.15286,
+        2391.89773,
+        314.83389,
+        2382.89773,
+        314.83389,
+        2402.89773,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2273.2194,
+        290.15286,
+        2282.2194,
+        290.15286,
+        2262.2194,
+        314.83389,
+        2253.2194,
+        314.83389,
+        2273.2194,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2359.67162,
+        290.15286,
+        2368.67162,
+        290.15286,
+        2348.67162,
+        314.83389,
+        2339.67162,
+        314.83389,
+        2359.67162,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2388.48903,
+        290.15286,
+        2397.48903,
+        290.15286,
+        2377.48903,
+        314.83389,
+        2368.48903,
+        314.83389,
+        2388.48903,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2417.30643,
+        290.15286,
+        2426.30643,
+        290.15286,
+        2406.30643,
+        314.83389,
+        2397.30643,
+        314.83389,
+        2417.30643,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2215.58459,
+        290.15286,
+        2224.58459,
+        290.15286,
+        2204.58459,
+        314.83389,
+        2195.58459,
+        314.83389,
+        2215.58459,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2244.40199,
+        290.15286,
+        2253.40199,
+        290.15286,
+        2233.40199,
+        314.83389,
+        2224.40199,
+        314.83389,
+        2244.40199,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2446.91432,
+        290.15286,
+        2448.00951,
+        290.15286,
+        2448.00951,
+        299.90781,
+        2435.91432,
+        314.83387,
+        2426.91432,
+        314.83387,
+        2446.91432,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "displayName": "不规则图形",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2431.71513,
+        290.15286,
+        2440.71513,
+        290.15286,
+        2420.71513,
+        314.83387,
+        2411.71513,
+        314.83387,
+        2431.71513,
+        290.15286
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#277cf3",
+      "borderCap": "square",
+      "points": [
+        2210.84773,
+        592.33227,
+        2210.84773,
+        598.33227
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "fillRule": "evenodd",
+      "points": [
+        2445.89999,
+        584.33227,
+        2445.89999,
+        605.33226,
+        2122.89999,
+        605.33226,
+        2117.89999,
+        610.33226,
+        2092.89999,
+        610.33226,
+        2066.89999,
+        584.33227
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(3,26,89)",
+      "borderJoin": "bevel",
+      "points": [
+        2081.60459,
+        608.03686,
+        2086.89999,
+        613.33226,
+        2119.89999,
+        613.33226,
+        2125.89999,
+        607.33226,
+        2419.89999,
+        607.33226
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2127.89999,
+        609.33226,
+        2139.89999,
+        609.33226,
+        2135.89998,
+        613.33226,
+        2123.89999,
+        613.33226,
+        2127.89999,
+        609.33226,
+        2127.89999,
+        609.33226
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2143.89999,
+        609.33226,
+        2155.9,
+        609.33226,
+        2151.89999,
+        613.33226,
+        2139.89999,
+        613.33226,
+        2143.89999,
+        609.33226,
+        2143.89999,
+        609.33226
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2159.89999,
+        609.33226,
+        2171.89999,
+        609.33226,
+        2167.89999,
+        613.33226,
+        2155.9,
+        613.33226,
+        2159.89999,
+        609.33226,
+        2159.89999,
+        609.33226
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(44,198,222)",
+      "fillRule": "evenodd",
+      "points": [
+        2175.9,
+        609.33226,
+        2187.89999,
+        609.33226,
+        2183.89999,
+        613.33226,
+        2171.89999,
+        613.33226,
+        2175.9,
+        609.33226,
+        2175.9,
+        609.33226
+      ]
+    },
+    {
+      "type": "components/progressBar/progressBar.json",
+      "rect": [
+        2085.42471,
+        585.40977,
+        360.47528,
+        17.74041
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "fillRule": "evenodd",
+      "displayName": "不规则图形",
+      "points": [
+        2086.09999,
+        604.52646,
+        2084.29999,
+        602.95227,
+        2085.42471,
+        584.55695,
+        2103.82479,
+        604.52646
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2082.98563,
+        583.35587,
+        2093.4242,
+        583.35587,
+        2084.4242,
+        595.36665
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2099.47477,
+        581.80799,
+        2108.47477,
+        581.80799,
+        2087.87675,
+        607.05072,
+        2087.87675,
+        596.25279,
+        2099.47477,
+        581.80799
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2114.72367,
+        582.08884,
+        2123.72367,
+        582.08884,
+        2103.72367,
+        606.76988,
+        2094.72367,
+        606.76988,
+        2114.72367,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2129.13237,
+        582.08884,
+        2138.13237,
+        582.08884,
+        2118.13237,
+        606.76988,
+        2109.13237,
+        606.76988,
+        2129.13237,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2143.54107,
+        582.08884,
+        2152.54107,
+        582.08884,
+        2132.54107,
+        606.76988,
+        2123.54107,
+        606.76988,
+        2143.54107,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2157.94978,
+        582.08884,
+        2166.94978,
+        582.08884,
+        2146.94978,
+        606.76988,
+        2137.94978,
+        606.76988,
+        2157.94978,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2172.35848,
+        582.08884,
+        2181.35848,
+        582.08884,
+        2161.35848,
+        606.76988,
+        2152.35848,
+        606.76988,
+        2172.35848,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2258.8107,
+        582.08884,
+        2267.8107,
+        582.08884,
+        2247.8107,
+        606.76988,
+        2238.8107,
+        606.76988,
+        2258.8107,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2302.03681,
+        582.08884,
+        2311.03681,
+        582.08884,
+        2291.03681,
+        606.76988,
+        2282.03681,
+        606.76988,
+        2302.03681,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2330.85421,
+        582.08884,
+        2339.85421,
+        582.08884,
+        2319.85421,
+        606.76988,
+        2310.85421,
+        606.76988,
+        2330.85421,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2229.99329,
+        582.08884,
+        2238.99329,
+        582.08884,
+        2218.99329,
+        606.76988,
+        2209.99329,
+        606.76988,
+        2229.99329,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2287.6281,
+        582.08884,
+        2296.6281,
+        582.08884,
+        2276.6281,
+        606.76988,
+        2267.6281,
+        606.76988,
+        2287.6281,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2316.44551,
+        582.08884,
+        2325.44551,
+        582.08884,
+        2305.44551,
+        606.76988,
+        2296.44551,
+        606.76988,
+        2316.44551,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2345.26292,
+        582.08884,
+        2354.26292,
+        582.08884,
+        2334.26292,
+        606.76988,
+        2325.26292,
+        606.76988,
+        2345.26292,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2186.76718,
+        582.08884,
+        2195.76718,
+        582.08884,
+        2175.76718,
+        606.76988,
+        2166.76718,
+        606.76988,
+        2186.76718,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2201.17588,
+        582.08884,
+        2210.17588,
+        582.08884,
+        2190.17588,
+        606.76988,
+        2181.17588,
+        606.76988,
+        2201.17588,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2374.08032,
+        582.08884,
+        2383.08032,
+        582.08884,
+        2363.08032,
+        606.76988,
+        2354.08032,
+        606.76988,
+        2374.08032,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2402.89773,
+        582.08884,
+        2411.89773,
+        582.08884,
+        2391.89773,
+        606.76988,
+        2382.89773,
+        606.76988,
+        2402.89773,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2273.2194,
+        582.08884,
+        2282.2194,
+        582.08884,
+        2262.2194,
+        606.76988,
+        2253.2194,
+        606.76988,
+        2273.2194,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2359.67162,
+        582.08884,
+        2368.67162,
+        582.08884,
+        2348.67162,
+        606.76988,
+        2339.67162,
+        606.76988,
+        2359.67162,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2388.48903,
+        582.08884,
+        2397.48903,
+        582.08884,
+        2377.48903,
+        606.76988,
+        2368.48903,
+        606.76988,
+        2388.48903,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2417.30643,
+        582.08884,
+        2426.30643,
+        582.08884,
+        2406.30643,
+        606.76988,
+        2397.30643,
+        606.76988,
+        2417.30643,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2215.58459,
+        582.08884,
+        2224.58459,
+        582.08884,
+        2204.58459,
+        606.76988,
+        2195.58459,
+        606.76988,
+        2215.58459,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2244.40199,
+        582.08884,
+        2253.40199,
+        582.08884,
+        2233.40199,
+        606.76988,
+        2224.40199,
+        606.76988,
+        2244.40199,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2446.91432,
+        582.08884,
+        2448.00951,
+        582.08884,
+        2448.00951,
+        591.8438,
+        2435.91432,
+        606.76985,
+        2426.91432,
+        606.76985,
+        2446.91432,
+        582.08884
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.20)",
+      "borderColor": "#979797",
+      "displayName": "不规则图形",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        2431.71513,
+        582.08884,
+        2440.71513,
+        582.08884,
+        2420.71513,
+        606.76985,
+        2411.71513,
+        606.76985,
+        2431.71513,
+        582.08884
+      ]
+    },
+    {
+      "type": "text",
+      "text": "硬件用途：",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        786.92786,
+        30.35496,
+        58.06018,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@serverName",
+        "value": ""
+      },
+      "color": "rgb(108,230,190)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        932.07831,
+        30.14706,
+        116.12035,
+        22.47653
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "displayName": "close",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar hidePanel = data.a('hidePanel');\r\nif(hidePanel) {\r\n    hidePanel();\r\n}\n}",
+      "points": [
+        1569.04731,
+        399.12843,
+        1546.74643,
+        384.88355,
+        1546.74643,
+        330,
+        1800.76271,
+        330,
+        1820.27709,
+        345.58373,
+        1820.27709,
+        399.12843
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        1568.66655,
+        396.78043,
+        251.61052,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "关闭面板",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1620.76451,
+        351.18383,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "displayName": "close",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar hidePanel = data.a('hidePanel');\r\nif(hidePanel) {\r\n    hidePanel();\r\n}\n}",
+      "points": [
+        2827.9855,
+        399.12843,
+        2805.68462,
+        384.88355,
+        2805.68462,
+        330,
+        3059.7009,
+        330,
+        3079.21528,
+        345.58373,
+        3079.21528,
+        399.12843
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        2827.60474,
+        396.78043,
+        251.61052,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@gbmb",
+        "value": "关闭面板"
+      },
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        2879.70271,
+        351.18383,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "displayName": "close",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar hidePanel = data.a('hidePanel');\r\nif(hidePanel) {\r\n    hidePanel();\r\n}\n}",
+      "points": [
+        183.11097,
+        399.12843,
+        160.81009,
+        384.88355,
+        160.81009,
+        330,
+        414.82637,
+        330,
+        434.34074,
+        345.58373,
+        434.34074,
+        399.12843
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d场景用/发光条.json",
+      "displayName": "发光条",
+      "rect": [
+        182.73021,
+        396.78043,
+        251.61052,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "关闭面板",
+      "align": "center",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        234.82817,
+        351.18383,
+        125.49449,
+        22.47653
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3850.08971,
+        334.45983,
+        25.6352,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "G",
+      "color": "rgb(124,145,155)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        3850.08971,
+        278.93402,
+        25.6352,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "521M"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        954.79792,
+        166.98529,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "占用内存",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        847.52707,
+        172.16018,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "tomcat"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        777.82576,
+        129.90463,
+        48.09618,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "正常"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1228.55562,
+        163.86689,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "状态",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1144.28477,
+        168.04179,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "2.8G"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        950.78522,
+        256.19077,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "占用内存",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        843.51437,
+        261.36566,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "mysql"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        773.81307,
+        219.11011,
+        48.09618,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "正常"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1224.54292,
+        253.07238,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "状态",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1140.27207,
+        257.24726,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "8.6G"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        950.78522,
+        351.25333,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "占用内存",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        843.51437,
+        356.42822,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "orcale"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        773.81307,
+        314.17267,
+        48.09618,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "正常"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1224.54292,
+        348.13493,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "状态",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1140.27207,
+        352.30982,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "20G"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        950.78522,
+        444.25852,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "占用内存",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        843.51437,
+        449.43341,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "elasticsearch"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        836.42775,
+        407.69097,
+        73.18075,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "运行卡顿"
+      },
+      "align": "right",
+      "color": "rgb(212,0,0)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1267.15458,
+        442.02173,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "状态",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1140.27207,
+        445.31501,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "20M"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        946.56912,
+        552.07824,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "占用内存",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        839.29827,
+        557.25313,
+        98.69695,
+        12.05494
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "redis"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        707.44856,
+        511.6883,
+        73.18075,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@1.CAPACITY",
+        "value": "正常"
+      },
+      "align": "right",
+      "color": "rgb(108,230,190)",
+      "scaleX": 3,
+      "scaleY": 3,
+      "rect": [
+        1220.32682,
+        548.95984,
+        33.89364,
+        18.64151
+      ]
+    },
+    {
+      "type": "text",
+      "text": "状态",
+      "color": "rgb(51,153,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        1136.05597,
+        553.13473,
+        98.69695,
+        12.05494
+      ]
+    }
+  ]
+}

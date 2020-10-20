@@ -34,9 +34,8 @@ class Screen {
     dm3d.clear() // 清空容器中所有Data对象
     typeof beforeCallBack === 'function' && beforeCallBack(g3d, dm3d)
     if (typeof g3dUrl === 'string') {
-      ht.Default.xhrLoad(g3dUrl, json => {
+      g3d.deserialize(g3dUrl, function(json, dm3d, g3d, datas) {
         if (json) {
-          dm3d.deserialize(json) // 反序列化数据到数据容器
           const screenJson = ht.Default.parse(json)
           const screenAttr = ht.Default.clone(screenJson.a)
           const defaultScene = (this.defaultScene = screenJson.scene)

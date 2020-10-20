@@ -2,15 +2,13 @@
   <div class="warpper">
     <div class="ht-cont" ref="htCont"></div>
     <scale-box style="pointer-events: none" :full-width="true">
-      <div class="data-content">
-        <Header />
-        <div class="main">
-          <div class="left">
-            <Numbers />
-          </div>
-          <div class="right"></div>
-        </div>
-      </div>
+      <transition name="slide-down">
+        <Header :dataView="dataView" :htObject="htObject" v-if="dataView || dataView === ''" />
+      </transition>
+      <transition name="fade">
+        <div v-if="dataView" class="bg"></div>
+      </transition>
+      <component v-bind:is="dataView" />
     </scale-box>
   </div>
 </template>
@@ -20,15 +18,18 @@ import createScript from '@/utils/createScript'
 import MainEntry from './js/main'
 import ScaleBox from '@/components/ScaleBox'
 import Header from './components/header'
-import Numbers from './modules/numbers'
+import index from './modules/index/index'
+import machineRoom from './modules/machineRoom/index'
 export default {
   components: {
     ScaleBox,
     Header,
-    Numbers
+    index,
+    machineRoom
   },
   data() {
     return {
+      dataView: false,
       htObject: null,
       isFirst: false,
       archivesBox: []
@@ -37,7 +38,7 @@ export default {
   created() {
     createScript(['libs/plugin/ht-obj.js'])
       .then(res => {
-        this.htObject = new MainEntry(this.$refs['htCont'], this)
+        this.htObject = window.htObject = new MainEntry(this.$refs['htCont'], this)
       })
       .catch(e => {
         console.log(e)
@@ -48,6 +49,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease-out;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: scale(1.2);
+}
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 0.5s ease-out;
+}
+
+.slide-down-enter,
+.slide-down-leave-to {
+  transform: translateY(-60px);
+  opacity: 0;
+}
 .warpper {
   position: relative;
   width: 100%;
@@ -60,8 +79,7 @@ export default {
     right: 0;
     bottom: 0;
   }
-  .data-content {
-    pointer-events: none;
+  /deep/.bg {
     position: absolute;
     left: 0;
     top: 0;
@@ -71,28 +89,6 @@ export default {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    .main {
-      position: absolute;
-      top: 81px;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      .left,
-      .right {
-        position: absolute;
-        width: 340px;
-        height: 100%;
-        // background: rgba($color: #00ffaa, $alpha: 0.4);
-        box-sizing: border-box;
-        padding-top: 70px;
-      }
-      .left {
-        left: 30px;
-      }
-      .right {
-        right: 30px;
-      }
-    }
   }
 }
 </style>
