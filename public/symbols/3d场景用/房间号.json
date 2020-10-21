@@ -1,0 +1,183 @@
+{
+  "modified": "Wed Oct 21 2020 11:07:46 GMT+0800 (中国标准时间)",
+  "width": 215,
+  "height": 90,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.85)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        51.1667,
+        58.08775,
+        162.98858,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,7,33,0.90)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "points": [
+        47.69687,
+        60.34084,
+        32.92089,
+        50.00955,
+        32.92089,
+        0,
+        201.22557,
+        0,
+        214.15528,
+        11.30231,
+        214.15528,
+        60.34084
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(77,127,176,0.05)",
+      "borderColor": "#979797",
+      "arcOval": true,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        51.48615,
+        26.98621,
+        162.66913,
+        66.20308
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机房",
+      "color": {
+        "func": "attr@louTextColor",
+        "value": "rgb(187,188,189)"
+      },
+      "font": "18px arial, sans-serif",
+      "displayName": {
+        "func": "attr@cameraName",
+        "value": "房间名"
+      },
+      "rect": [
+        123.53809,
+        13.85319,
+        45.34481,
+        33.74146
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.15)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        51.16671,
+        25.58356,
+        9.15941,
+        9.17373
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -1.40485,
+      "rect": [
+        34.013,
+        44.05215,
+        4.49083,
+        4.37532
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#32D3EB",
+      "borderCap": "round",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 4.71239,
+      "points": [
+        -0.82442,
+        49.14627,
+        8.23278,
+        64.7602,
+        26.96508,
+        64.76018,
+        41.33851,
+        86.20598
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -1.40485,
+      "rect": [
+        0.22717,
+        87.25761,
+        3,
+        3
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        36.78693,
+        44.59464,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A303",
+      "color": "#32D3EB",
+      "font": "18px arial, sans-serif",
+      "rect": [
+        64.16929,
+        6.94502,
+        50,
+        50
+      ]
+    }
+  ]
+}

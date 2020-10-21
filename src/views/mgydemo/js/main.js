@@ -13,14 +13,19 @@ window.htconfig = {
 class MainEntry {
   constructor(el, vm) {
     this.vm = vm
+    this.screen = new Screen()
     this.map_2d_3d = {
       index: {
         screenCallback: this.loadMgyDemo,
         parentScreenCallback: null
       },
+      buildFloor: {
+        screenCallback: this.loadBuildFloor,
+        parentScreenCallback: this.loadMgyDemo
+      },
       machineRoom: {
         screenCallback: this.loadMachineRoom,
-        parentScreenCallback: this.loadMgyDemo
+        parentScreenCallback: this.loadBuildFloor
       }
     }
     this.buildNamesVisible = false
@@ -29,21 +34,27 @@ class MainEntry {
     this.cameraVisible = false
     this.cameraList = []
 
+    this.floorList = []
+
     this.screenList = []
     this.datas = []
+
+    this.openedCabinet = []
+    this.opacityMap = {}
     this.loadScreen(el)
   }
 
   loadScreen(el) {
-    const screen = (this.screen = new Screen())
-    screen.init3dScreen(el, g3d => {
+    const screen = this.screen
+    this.screen.init3dScreen(el, g3d => {
       g3d.setCenter([0, 0, 0])
       g3d.setEye([-5425, 12325, -7120])
       const mapInteractor = new ht.graph3d.MapInteractor(g3d)
       g3d.setInteractors([mapInteractor])
 
-      // this.loadMgyDemo()
-      this.loadMachineRoom()
+      this.loadMgyDemo()
+      // this.loadBuildFloor()
+      // this.loadMachineRoom()
       Object.assign(this, {
         g2d: screen.g2d,
         g3d: screen.g3d,
@@ -67,8 +78,10 @@ class MainEntry {
       g3d.setCenter(0, 0, 0)
       // 设置最大仰角
       this.mapInteractor.maxPhi = Math.PI / 2.1
-      this.datas = dm3d.getDatas().toArray()
 
+      this.vm.showBack = false
+
+      this.datas = dm3d.getDatas().toArray()
       this.getBuildNames()
       this.getCamera()
 
@@ -81,7 +94,6 @@ class MainEntry {
       }
 
       if (hasloaded > -1) {
-        this.vm.dataView = 'index'
         const polyline = dm3d.getDataByTag('polyline')
         const length = g3d.getLineLength(polyline)
         const offset = g3d.getLineOffset(polyline, length)
@@ -91,13 +103,15 @@ class MainEntry {
         const pz = point.z
         g3d.setEye(px, py, pz)
         g3d.setCenter(0, 0, 0)
+        screen.add3dMiEvent(this.miIndex3dEvent, this)
+        this.vm.dataView = 'index'
       } else {
         this.screenList.push('mgydemo')
         // 漫游动画
         setTimeout(() => {
           this.roamingAnim(g3d, dm3d, () => {
             // 添加事件监听
-            screen.add3dMiEvent(this.miCampus3dEvent, this)
+            screen.add3dMiEvent(this.miIndex3dEvent, this)
             this.vm.dataView = 'index'
           })
         }, 1000)
@@ -105,13 +119,145 @@ class MainEntry {
     })
   }
 
+  // 加载机房
+  loadMachineRoom() {
+    const { screen } = this
+    screen.load3dScreen('scenes/玫瑰园南区/玫瑰园机房.json', null, (g3d, dm3d) => {
+      console.log('机房加载完成')
+      this.vm.dataView = 'machineRoom'
+      g3d.setFar(20000)
+      this.mapInteractor.maxPhi = Math.PI / 2.3
+      g3d.setCenter(0, 0, 0)
+      g3d.enablePostProcessing('Bloom', false)
+
+      this.initControllPanelEvent()
+      screen.add3dMiEvent(this.machineRoom3dEvent, this)
+    })
+  }
+
+  // 加载楼层
+  loadBuildFloor() {
+    const { screen } = this
+    screen.load3dScreen('scenes/玫瑰园南区/楼层.json', null, (g3d, dm3d) => {
+      console.log('楼层加载完成')
+      this.datas = dm3d.getDatas().toArray()
+
+      this.vm.dataView = 'buildFloor'
+      this.vm.showBack = true
+      g3d.setFar(20000)
+      this.mapInteractor.maxPhi = Math.PI / 2
+      g3d.setCenter(0, 0, 0)
+      g3d.enablePostProcessing('Bloom', false)
+
+      g3d.setEye([0, 3474, 311])
+      const position3d = [-2358, 937, 2401]
+      ht.Default.startAnim({
+        duration: 3000, // 动画周期毫秒数，默认采用`ht.Default.animDuration`
+        action: v => {
+          // action 函数必须提供，实现动画过程中的属性变化。
+          const eyePos = g3d.getEye()
+          g3d.setEye([
+            eyePos[0] + (position3d[0] - eyePos[0]) * v,
+            eyePos[1] + (position3d[1] - eyePos[1]) * v,
+            eyePos[2] + (position3d[2] - eyePos[2]) * v
+          ])
+          if ((v > 0.3) & !this.floorAnimed) {
+            this.floorAnim()
+          }
+        },
+        finishFunc: () => {
+          // 动画结束后调用的函数。
+          console.log('动画结束')
+          this.floorAnimed = false
+        }
+      })
+
+      this.getFloorList(dm3d)
+    })
+  }
+
+  floorAnim() {
+    this.floorAnimed = true
+    ht.Default.startAnim({
+      duration: 500,
+      easing: t => {
+        return t
+      },
+      finishFunc: () => {
+        this.showFloorName()
+      }, // 动画结束后调用的函数。
+      action: (v, t) => {
+        this.floorList.forEach((item, index) => {
+          const d = (index + 1 - 3) * 300
+          const p = item.p3Value
+          item.p3(p[0], p[1] + d * v, p[2] - d * v)
+        })
+      }
+    })
+  }
+
+  showFloorName() {
+    const floorNameList = []
+    this.datas.forEach(item => {
+      const displayName = item.getDisplayName()
+      if (displayName && (displayName === '机房' || displayName.indexOf('楼') > -1)) {
+        floorNameList.push(item)
+      }
+    })
+    console.log(floorNameList)
+    ht.Default.startAnim({
+      duration: 300,
+      easing: t => {
+        return t * t
+      },
+      finishFunc: () => {
+        this.screen.add3dMiEvent(this.miFloor3dEvent, this)
+      }, // 动画结束后调用的函数。
+      action: (v, t) => {
+        floorNameList.forEach(item => {
+          if (item._displayName === '机房') {
+            item.setScale3d(...[2 * v, 2 * v, 1])
+          } else {
+            item.setScale3d(...[1 * v, 1 * v, 1])
+          }
+        })
+      }
+    })
+  }
+
+  getFloorList(dm3d) {
+    this.floorList = []
+    this.datas.forEach(item => {
+      const displayName = item.getDisplayName()
+      if (displayName && displayName.indexOf('louceng') > -1) {
+        item['p3Value'] = item.p3()
+        this.floorList.push(item)
+      }
+    })
+    this.floorList.sort((a, b) => {
+      return a._displayName.split('_')[1] - b._displayName.split('_')[1]
+    })
+  }
+
   // 添加3D场景事件方法
-  miCampus3dEvent(e) {
+  miIndex3dEvent(e) {
     const { kind, data } = e
     if (!data) return
     if (kind === 'doubleClickData') {
       const tagName = data.getTag()
       if (tagName === '教学楼') {
+        this.loadBuildFloor()
+      }
+    }
+  }
+
+  // 添加3D场景事件方法
+  miFloor3dEvent(e) {
+    const { kind, data } = e
+    if (!data) return
+    if (kind === 'doubleClickData') {
+      const tagName = data.getTag()
+      if (tagName === '机房') {
         this.loadMachineRoom()
       }
     }
@@ -176,8 +322,7 @@ class MainEntry {
         }
       }
     }
-    if (kind === 'doubleClickData' && !this.inspect.isInspecting) {
-      const data = data
+    if (kind === 'doubleClickData') {
       const { cabinetNode, childsArr } = mainUtil.getCabinetChilds(data, dm3d)
       if (cabinetNode) {
         this.focusCabinetNode = cabinetNode
@@ -185,11 +330,14 @@ class MainEntry {
         mainUtil.blurBackground(
           this.dm3d,
           this.opacityMap,
-          childsArr.concat(cabinetNode).concat(this.scanNode)
+          childsArr
+            .concat(cabinetNode)
+            .concat(this.scanNode)
+            .concat(this.serverPanel)
         )
         g3d.flyTo(cabinetNode, {
           animation: true,
-          direction: [0, 0, 12],
+          direction: [0, 0, -12],
           distance: 300
         })
 
@@ -199,31 +347,15 @@ class MainEntry {
         this.startScanCabinet(cabinetNode)
       }
     }
-    if (kind === 'doubleClickBackground' && !this.inspect.isInspecting) {
+    if (kind === 'doubleClickBackground') {
       if (this.focusCabinetNode) {
         this.focusCabinetNode.a('isDoorOpen') && this.closeDoor(this.focusCabinetNode)
         this.focusCabinetNode = null
         mainUtil.restoreBackground(this.dm3d, this.opacityMap)
-        mainUtil.flyToView(g3d, this.scene.defaultScene.eye, this.scene.defaultScene.center)
+        mainUtil.flyToView(g3d, this.screen.defaultScene.eye, this.screen.defaultScene.center)
         this.stopScanCabinet()
       }
     }
-  }
-
-  // 加载机房
-  loadMachineRoom() {
-    const { screen } = this
-    screen.load3dScreen('scenes/玫瑰园南区/玫瑰园机房.json', null, (g3d, dm3d) => {
-      console.log('机房加载完成')
-      this.vm.dataView = 'machineRoom'
-      g3d.setFar(20000)
-      this.mapInteractor.maxPhi = Math.PI / 2.3
-      g3d.setCenter(0, 0, 0)
-      g3d.enablePostProcessing('Bloom', false)
-
-      // screen.add3dMiEvent(this.machineRoom3dEvent, this)
-      // this.initControllPanelEvent()
-    })
   }
 
   // 获取楼栋名称标签
@@ -332,10 +464,10 @@ class MainEntry {
     })
   }
   initControllPanelEvent() {
-    const serverPanel = this.dm3d.getDataByTag('serverPanel')
-    serverPanel.a('hidePanel', () => {
+    this.serverPanel = this.dm3d.getDataByTag('serverPanel')
+    this.serverPanel.a('hidePanel', () => {
       this.pushBackBoard(this.lastPushOutBoard)
-      serverPanel.s({
+      this.serverPanel.s({
         '2d.visible': false,
         '3d.visible': false
       })
@@ -344,7 +476,7 @@ class MainEntry {
   openDoor(node) {
     const cabinetAndChilds = mainUtil.getCabinetChilds(node, this.dm3d)
     const cabinetNode = cabinetAndChilds.cabinetNode
-    const { door, tip, blinkLight } = cabinetAndChilds.childsObj
+    const { door, tip } = cabinetAndChilds.childsObj
     if (cabinetNode && !cabinetNode.a('isDoorOpen')) {
       const rotateVal = (Math.PI * 3) / 4
       this.closeDoorInterval && this.closeDoorInterval.stop()
@@ -367,7 +499,6 @@ class MainEntry {
       }
       cabinetNode.a('isDoorOpen', true)
       this.openedCabinet.push(cabinetNode)
-      this.startBlinkLight(blinkLight)
     }
   }
   closeDoor(node) {
@@ -409,7 +540,6 @@ class MainEntry {
           data.a('isPush') && this.pushBackBoard(data)
         }
       })
-      this.stopBlinkLight()
     }
   }
   pushOutBoard(boardNode, cabinetNode) {
@@ -442,7 +572,7 @@ class MainEntry {
       this.lastPushOutBoard && this.pushBackBoard(this.lastPushOutBoard)
       this.lastPushOutBoard = boardNode
       this.currentControllPanel = this.dm3d.getDataByTag('serverPanel')
-      boardNode.a('bindHtTagList') && this.startRotatePanel(cabinetNode, boardNode)
+      this.startRotatePanel(cabinetNode, boardNode)
       boardNode.a('isPushOutAnimating', true)
       // 点击的为前机架显卡
       if (boardNode.getDisplayName() === '显卡z-') {
@@ -503,7 +633,7 @@ class MainEntry {
       }
     }
     if (boardNode.a('isPush') && !boardNode.a('isPushInAnimating')) {
-      boardNode.a('bindHtTagList') && this.stopRotatePanel(true)
+      this.stopRotatePanel(true)
       this.lastPushOutBoard = null
       boardNode.a('isPushInAnimating', true)
       // 点击的为前机架显卡
@@ -604,6 +734,56 @@ class MainEntry {
       })
     clearInterval(this.rotationInterval)
     this.rotationInterval = null
+  }
+
+  startScanCabinet(cabinetNode) {
+    let scanNode = this.scanNode
+    if (!scanNode) {
+      scanNode = this.scanNode = new ht.Node()
+      scanNode.s({
+        'all.color': null,
+        'all.image': 'symbols/扫描.json',
+        'all.transparent': true,
+        'all.reverse.cull': true,
+        '2d.selectable': false,
+        '3d.selectable': false
+      })
+      this.dm3d.add(scanNode)
+    }
+    scanNode.setHost(cabinetNode)
+    scanNode.setAnchor3d(cabinetNode.getAnchor3d())
+    scanNode.s3(cabinetNode.s3())
+    scanNode.p3(cabinetNode.p3())
+    scanNode.s({
+      '2d.visible': true,
+      '3d.visible': true
+    })
+
+    this.scanTask = {
+      interval: 50,
+      action: data => {
+        if (data === this.scanNode) {
+          const offset = data.s('all.uv.offset') || [0, 0]
+          let offsetY = offset[1]
+          offsetY = (offsetY - 0.02) % 1
+          data.s('all.uv.offset', [0, offsetY])
+        }
+      }
+    }
+
+    this.dm3d.addScheduleTask(this.scanTask)
+  }
+
+  stopScanCabinet() {
+    this.scanTask && this.dm3d.removeScheduleTask(this.scanTask)
+    const scanNode = this.scanNode
+    if (scanNode) {
+      scanNode.s({
+        '2d.visible': false,
+        '3d.visible': false
+      })
+      scanNode.setHost(null)
+    }
   }
 }
 export default MainEntry

@@ -1,0 +1,406 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "envmap": "assets/贴图/环境光/星光.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "bloom": {
+        "strength": 1,
+        "threshold": 0.6
+      }
+    }
+  },
+  "a": {
+    "sceneBloom": false,
+    "sceneBloomStrength": 1,
+    "sceneBloomThreshold": 0.6
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2444,
+      "p": {
+        "width": 30000,
+        "height": 30000,
+        "tall": 30000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "rgb(0,0,0)",
+        "shape3d.reverse.flip": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2445,
+      "p": {
+        "displayName": "louceng_5",
+        "parent": {
+          "__i": 2444
+        },
+        "host": {
+          "__i": 2444
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园/loceng.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.4
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2446,
+      "p": {
+        "displayName": "五楼",
+        "parent": {
+          "__i": 2445
+        },
+        "tag": "五楼",
+        "image": "symbols/3d场景用/楼层标识.json",
+        "host": {
+          "__i": 2445
+        },
+        "position": {
+          "x": 1231.67445,
+          "y": 271.34276
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 76.71009
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼层标识.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.transparent": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2447,
+      "p": {
+        "displayName": "louceng_4",
+        "parent": {
+          "__i": 2444
+        },
+        "host": {
+          "__i": 2444
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园/loceng.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.4
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2448,
+      "p": {
+        "displayName": "四楼",
+        "parent": {
+          "__i": 2447
+        },
+        "tag": "四楼",
+        "image": "symbols/3d场景用/楼层标识.json",
+        "host": {
+          "__i": 2447
+        },
+        "position": {
+          "x": 1231.67445,
+          "y": 271.34276
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 76.71009
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼层标识.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.transparent": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2449,
+      "p": {
+        "displayName": "louceng_3",
+        "parent": {
+          "__i": 2444
+        },
+        "host": {
+          "__i": 2444
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园/loceng.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.4
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2450,
+      "p": {
+        "displayName": "三楼",
+        "parent": {
+          "__i": 2449
+        },
+        "tag": "三楼",
+        "image": "symbols/3d场景用/楼层标识.json",
+        "host": {
+          "__i": 2449
+        },
+        "position": {
+          "x": 1231.67445,
+          "y": 271.34276
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 76.71009
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼层标识.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.transparent": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2451,
+      "p": {
+        "displayName": "机房",
+        "parent": {
+          "__i": 2449
+        },
+        "tag": "机房",
+        "image": "symbols/3d场景用/房间号.json",
+        "host": {
+          "__i": 2449
+        },
+        "position": {
+          "x": 133,
+          "y": -69.85673
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 70
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/房间号.json",
+        "shape3d.autorotate": true,
+        "shape3d.transparent": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2452,
+      "p": {
+        "displayName": "louceng_2",
+        "parent": {
+          "__i": 2444
+        },
+        "host": {
+          "__i": 2444
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园/loceng.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.4
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2453,
+      "p": {
+        "displayName": "二楼",
+        "parent": {
+          "__i": 2452
+        },
+        "tag": "二楼",
+        "image": "symbols/3d场景用/楼层标识.json",
+        "host": {
+          "__i": 2452
+        },
+        "position": {
+          "x": 1231.67445,
+          "y": 271.34276
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 76.71009
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼层标识.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.transparent": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2454,
+      "p": {
+        "displayName": "louceng_1",
+        "parent": {
+          "__i": 2444
+        },
+        "host": {
+          "__i": 2444
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4
+      },
+      "s": {
+        "shape3d": "models/168玫瑰园/loceng.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.4
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2455,
+      "p": {
+        "displayName": "一楼",
+        "parent": {
+          "__i": 2454
+        },
+        "tag": "一楼",
+        "image": "symbols/3d场景用/楼层标识.json",
+        "host": {
+          "__i": 2454
+        },
+        "position": {
+          "x": 1231.67445,
+          "y": 271.34276
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0,
+          "y": 1
+        },
+        "scaleTall": 0,
+        "elevation": 76.71009
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/楼层标识.json",
+        "shape3d.autorotate": true,
+        "wf.visible": "selected",
+        "shape3d.transparent": true
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      0,
+      3308.57143,
+      296.19048
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "near": 10,
+    "far": 30000,
+    "gridVisible": true,
+    "gridSize": 0,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

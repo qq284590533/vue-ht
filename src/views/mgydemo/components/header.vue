@@ -2,7 +2,7 @@
   <div class="header">
     <div class="date-bar">
       <p class="date">{{ date }}&nbsp;{{ weekday }}&nbsp;&nbsp;&nbsp;{{ moment }}</p>
-      <span v-show="dataView !== 'index'" class="back" @click="back"></span>
+      <span v-show="dataView !== 'index' || showBack" class="back" @click="back"></span>
     </div>
     <p class="title">合肥一六八玫瑰园教育集团运营中心</p>
     <div class="weather-bar">多云 18~24 ℃ PM2.5</div>
@@ -19,7 +19,11 @@ export default {
       type: String,
       default: 'index'
     },
-    htObject: Object
+    htObject: Object,
+    showBack: {
+      type: Boolean,
+      default: false
+    }
   },
   data() {
     return {

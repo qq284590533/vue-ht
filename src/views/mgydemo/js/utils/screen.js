@@ -34,7 +34,7 @@ class Screen {
     dm3d.clear() // 清空容器中所有Data对象
     typeof beforeCallBack === 'function' && beforeCallBack(g3d, dm3d)
     if (typeof g3dUrl === 'string') {
-      g3d.deserialize(g3dUrl, function(json, dm3d, g3d, datas) {
+      g3d.deserialize(g3dUrl, (json, dm3d, g3d, datas) => {
         if (json) {
           const screenJson = ht.Default.parse(json)
           const screenAttr = ht.Default.clone(screenJson.a)

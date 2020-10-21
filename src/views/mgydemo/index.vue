@@ -3,12 +3,17 @@
     <div class="ht-cont" ref="htCont"></div>
     <scale-box style="pointer-events: none" :full-width="true">
       <transition name="slide-down">
-        <Header :dataView="dataView" :htObject="htObject" v-if="dataView || dataView === ''" />
+        <Header
+          :dataView="dataView"
+          :show-back="showBack"
+          :htObject="htObject"
+          v-if="dataView || dataView === ''"
+        />
       </transition>
       <transition name="fade">
         <div v-if="dataView" class="bg"></div>
       </transition>
-      <component v-bind:is="dataView" />
+      <component v-bind:is="componentName" />
     </scale-box>
   </div>
 </template>
@@ -32,11 +37,17 @@ export default {
       dataView: false,
       htObject: null,
       isFirst: false,
-      archivesBox: []
+      showBack: false
+    }
+  },
+  computed: {
+    componentName() {
+      if (this.dataView === 'buildFloor') return 'index'
+      return this.dataView
     }
   },
   created() {
-    createScript(['libs/plugin/ht-obj.js'])
+    createScript(['libs/plugin/ht-obj.js', '/libs/plugin/ht-vector.js'])
       .then(res => {
         this.htObject = window.htObject = new MainEntry(this.$refs['htCont'], this)
       })

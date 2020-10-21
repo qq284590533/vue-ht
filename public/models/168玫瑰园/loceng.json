@@ -1,0 +1,9 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/168玫瑰园/louceng.obj",
+  "mtl": "assets/objs/168玫瑰园/louceng.mtl",
+  "image": "",
+  "reverseFlipMtls": "*",
+  "ignoreNormal": true,
+  "prefix": "assets/objs/168玫瑰园/"
+}
